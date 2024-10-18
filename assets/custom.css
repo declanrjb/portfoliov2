@@ -98,3 +98,24 @@ column {
     font-size: .75em;
     margin-bottom: 10px;
 }
+
+.read-more {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#posts-redacted {
+    display: block;
+}
+
+#posts-full {
+    display: none;
+}
+
+#stories-more {
+    display: block;
+}
+
+#stories-less {
+    display: none;
+}

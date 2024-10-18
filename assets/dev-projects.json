@@ -26,9 +26,9 @@
             "description":"Interactive visualization of Trump's Truth Social posts during Harris's acceptance speech at the DNC."
         },
         {
-            "title":"arborist",
-            "link":"https://declanrjb.github.io/arborist/",
-            "description":"Visualizing the tree structure of web pages as an interactive graphic."
+            "title":"bop-inmate-complaint-data-processing",
+            "link":"https://github.com/data-liberation-project/bop-inmate-complaint-data-processing",
+            "description":"Creating a more human-readable version of BOP data received via FOIA."
         }
     ]
 }

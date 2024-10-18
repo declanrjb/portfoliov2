@@ -5,5 +5,4 @@ theme = "hugo-theme-console"
 
 [params]
   custom_stylesheets = ["custom.css"]
-  jquery = ["jquery-3.7.1.min.js"]
-  custom_scripts = ["jquery-3.7.1.min.js","script.js"]
+  custom_scripts = ["script.js"]
