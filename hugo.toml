@@ -1,0 +1,7 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = '@Declan Bradley'
+theme = "hugo-theme-console"
+
+[params]
+  custom_stylesheets = ["custom.css"]
