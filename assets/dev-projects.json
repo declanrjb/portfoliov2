@@ -1,0 +1,34 @@
+{
+    "clips":[
+        {
+            "title":"congress-finance",
+            "link":"https://declanrjb.github.io/congress-finance",
+            "description":"An interactive chart of campaign donations to candidates for congressional office in the 2022 US midterms, using source data crawled from opensecrets.org."
+        },
+        {
+            "title":"lede-project2",
+            "link":"https://declanrjb.github.io/lede-project2/",
+            "description":"Story for the Lede Program at Columbia based on Bureau of Prisons inmate complaint data published by the Data Liberation Project."
+        },
+        {
+            "title":"inmate-complaints-api",
+            "link":"https://declanrjb.github.io/inmate-complaints-api/",
+            "description":"Exploratory interface for 1.78 million complaint/appeal submissions filed by federal prison inmates over 24 years, published by the Data Liberation Project."
+        },
+        {
+            "title":"doe-investigations-crawler",
+            "link":"https://github.com/declanrjb/higher-ed-investigations-crawler",
+            "description":"Send an email summary whenever the department of ed opens a new investigation into a U.S. college."
+        },
+        {
+            "title":"kamala-trump-timing",
+            "link":"https://declanrjb.github.io/kamala-trump-timing/",
+            "description":"Interactive visualization of Trump's Truth Social posts during Harris's acceptance speech at the DNC."
+        },
+        {
+            "title":"arborist",
+            "link":"https://declanrjb.github.io/arborist/",
+            "description":"Visualizing the tree structure of web pages as an interactive graphic."
+        }
+    ]
+}
