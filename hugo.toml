@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://www.declanrjb.com'
 languageCode = 'en-us'
 title = '@Declan Bradley'
 theme = "hugo-theme-console"
