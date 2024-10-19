@@ -119,3 +119,21 @@ column {
 #stories-less {
     display: none;
 }
+
+@media only screen and (max-width: 820px) {
+    .post {
+        width: calc(100% - 20px);
+    }
+
+    .post-blurb {
+        min-height: 125px;
+    }
+
+    .project {
+        width: calc(100% - 20px);
+    }
+
+    #projects-more {
+        margin-bottom: 100px;
+    }
+}
