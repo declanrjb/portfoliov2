@@ -120,6 +120,10 @@ column {
     display: none;
 }
 
+.rop-post {
+    width: calc(25% - 20px) !important;
+}
+
 @media only screen and (max-width: 820px) {
     .post {
         width: calc(100% - 20px);

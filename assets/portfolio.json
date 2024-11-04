@@ -38,7 +38,7 @@
             "title":"Flaw in Campus Directory Exposes ID Numbers of Students, Staff, Faculty, Alumni",
             "date":"September 2023",
             "publication":"The Reed College Quest",
-            "award":"National 2nd News Writing (ACP)",
+            "award":"2nd News Writing (ACP)",
             "link":"clips/systems-flaw.pdf",
             "type":"Writing & Reporting"
         },
@@ -58,7 +58,8 @@
             "publication":"The Reed Inquirer",
             "about":"Interactive data-based explainer on flaws in the college's vote counting process.",
             "link":"https://reedinquirer.org/ranked-choice.html",
-            "type":"Data-Driven"
+            "type":"Data-Driven",
+            "award":"Reporter of the Year Honoree"
         },
         {
             "image":"images/valentine.jpg",
@@ -75,7 +76,8 @@
             "date":"March 2024",
             "publication":"The Reed Inquirer",
             "link":"https://reedinquirer.org/#bomb-threat",
-            "type":"Data-Driven"
+            "type":"Data-Driven",
+            "award":"Reporter of the Year Honoree"
         },
         {
             "image":"images/bop-cleaning.png",
