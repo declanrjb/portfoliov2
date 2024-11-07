@@ -126,7 +126,7 @@ column {
 
 @media only screen and (max-width: 820px) {
     .post {
-        width: calc(100% - 20px);
+        width: calc(100% - 20px) !important;
     }
 
     .post-blurb {
