@@ -6,9 +6,9 @@
             "description":"An interactive chart of campaign donations to candidates for congressional office in the 2022 US midterms, using source data crawled from opensecrets.org."
         },
         {
-            "title":"openelections-data-pa",
-            "link":"https://github.com/openelections/openelections-data-pa",
-            "description":"Volunteer work parsing election results released by county offices using pdfplumber. Focused on Pennsylvania, my home state."
+            "title":"behind-the-badge",
+            "link":"https://www.policefilesny.com/",
+            "description":"Contract with MuckRock to develop and launch a website for the Behind the Badge project, making public the disciplinary files of the New York state police."
         },
         {
             "title":"inmate-complaints-api",
