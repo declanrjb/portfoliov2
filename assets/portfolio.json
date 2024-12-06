@@ -1,6 +1,31 @@
 {
     "clips":[
         {
+            "image":"images/inmate-complaints.png",
+            "title":"Federal Inmates Have Filed Millions of Complaints Against Their Jailers. Most Go Unheard.",
+            "date":"July 2024",
+            "publication":"Lede Program for Data Journalism @ Columbia University",
+            "link":"https://declanrjb.github.io/lede-project2/",
+            "type":"Lede Program @ CU"
+        },
+        {
+            "image":"images/bradley-congress.jpg",
+            "title":"The Colleges that Shape Congress",
+            "date":"December 2024",
+            "publication":"The Chronicle of Higher Education",
+            "link":"https://www.chronicle.com/article/the-colleges-that-shape-congress",
+            "type":"Data-Driven"
+        },
+        {
+            "image":"images/pidm_json_final.png",
+            "title":"Flaw in Campus Directory Exposes ID Numbers of Students, Staff, Faculty, Alumni",
+            "date":"September 2023",
+            "publication":"The Reed College Quest",
+            "award":"2nd News Writing (ACP)",
+            "link":"clips/systems-flaw.pdf",
+            "type":"Writing & Reporting"
+        },
+        {
             "image":"images/congress-network.png",
             "title":"By the Numbers: Exploring Campaign Finance in the 2022 US Midterms",
             "date":"March 2023",
@@ -8,14 +33,6 @@
             "award":"2023 Multimedia Story of the Year (ACP)",
             "link":"https://declanrjb.github.io/congress-finance",
             "type":"Data-Driven"
-        },
-        {
-            "image":"images/inmate-complaints.png",
-            "title":"Federal Inmates Have Filed Millions of Complaints Against Their Jailers. Most Go Unheard.",
-            "date":"July 2024",
-            "publication":"Lede Program for Data Journalism @ Columbia University",
-            "link":"https://declanrjb.github.io/lede-project2/",
-            "type":"Lede Program @ CU"
         },
         {
             "image":"images/chronicle_student-texts.webp",
@@ -32,24 +49,6 @@
             "publication":"The Chronicle of Higher Education",
             "link":"https://www.chronicle.com/article/at-u-of-wisconsin-underrepresented-students-of-color-were-half-as-likely-to-be-accepted-this-year",
             "type":"Data-Driven"
-        },
-        {
-            "image":"images/pidm_json_final.png",
-            "title":"Flaw in Campus Directory Exposes ID Numbers of Students, Staff, Faculty, Alumni",
-            "date":"September 2023",
-            "publication":"The Reed College Quest",
-            "award":"2nd News Writing (ACP)",
-            "link":"clips/systems-flaw.pdf",
-            "type":"Writing & Reporting"
-        },
-        {
-            "image":"images/tomatoes-gender-chart.png",
-            "title":"The Silver Ceiling",
-            "date":"June 2024",
-            "publication":"Lede Program for Data Journalism @ Columbia University",
-            "about":"An analysis of 10,213 movie listings reveals the monetary cost of misogyny for women who direct, and star in, major films.",
-            "link":"https://declanrjb.github.io/lede-project-1/",
-            "type":"Lede Program @ CU"
         },
         {
             "image":"images/single-stv-box.png",
