@@ -85,22 +85,6 @@
             "publication":"The Data Liberation Project",
             "link":"https://github.com/data-liberation-project/bop-inmate-complaint-data-processing",
             "type":"Coding"
-        },
-        {
-            "image":"images/final_rhetoric_draft.png",
-            "title":"How a DVS Mentorship Changed My Approach to Data Journalism",
-            "date":"November 2023",
-            "publication":"Nightingale Magazine",
-            "link":"https://nightingaledvs.com/dvs-mentorship-data-journalism/",
-            "type":"Writing & Reporting"
-        },
-        {
-            "image":"images/staffpay_scatter.png",
-            "title":"Staff Pay Explained: What Would Have Changed, and why Staff and Faculty Objected",
-            "date":"March 2023",
-            "publication":"The Reed College Quest",
-            "link":"clips/staff-pay.pdf",
-            "type":"Data-Driven"
         }
     ]
 }
