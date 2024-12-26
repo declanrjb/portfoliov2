@@ -1,0 +1,109 @@
+.spin-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.rolladex-item {
+    border: 2px solid black;
+}
+
+img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+column {
+    display: block;
+    float: left;
+}
+
+#headshot {
+    border-radius: 100%;
+}
+
+.about-text {
+    margin: 20px;
+    line-height: 1.6em;
+    border-top: 2px solid black;
+}
+
+.about-text p {
+    font-size: 1.2em;
+}
+
+.outlink {
+    background-color: white;
+    width: calc(100% - 25px);
+    color: black;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    text-align: right;
+    margin-right: 10px;
+    pointer-events: all;
+}
+
+.outlink:hover {
+    cursor: pointer;
+}
+
+.story-links {
+    margin: 20px;
+}
+
+.story {
+    font-size: 1.2em;
+    color: black;
+    margin-bottom: 20px;
+    border-left: 5px solid #BAB1A0;
+    padding-left: 10px;
+}
+
+.award {
+    background-color: #BAB1A0;
+    color: white;
+    padding: 2px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+a {
+    color: black;
+}
+
+@media screen and (max-width: 820px) {
+    column {
+        width: 100% !important;
+    }
+
+    .header-block {
+        margin: 20px;
+        margin-top: 0px;
+    }
+
+    .outlink {
+        width: calc(100% - 24px);
+        border: 2px solid black;
+        text-align: center;
+        background-color: black;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .outlinks {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .about-text {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 820px) {
+
+}

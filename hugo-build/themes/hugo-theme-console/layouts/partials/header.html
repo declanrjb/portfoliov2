@@ -1,0 +1,15 @@
+<!-- Keep - override to add code to <header /> tag -->
+<script src="https://kit.fontawesome.com/bb1d08a9b2.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+
+<link rel="icon" type="image/x-icon" href="magnifying-glass-chart-solid.svg">
+
+{{ range .Site.Params.custom_stylesheets -}}
+    {{ $style := resources.Get . | resources.ToCSS | minify }}
+    <link href="{{ $style.Permalink }}" rel="stylesheet" />
+{{- end }}
+
+{{ range .Site.Params.custom_scripts -}}
+    {{ $script := resources.Get . | js.Build}}
+    <script src="{{ $script.Permalink }}"></script>
+{{- end }}

@@ -1,0 +1,41 @@
+{
+    "clips":[
+        {
+            "image":"images/pidm_json_final.png",
+            "title":"Flaw in Campus Directory Exposes ID Numbers of Students, Staff, Faculty, Alumni",
+            "date":"September 2023",
+            "publication":"The Reed College Quest",
+            "award":"2nd News Writing (ACP)",
+            "link":"clips/systems-flaw.pdf",
+            "type":"Writing & Reporting"
+        },
+        {
+            "image":"images/single-stv-box.png",
+            "title":"Electoral Counting Method Disenfranchises Reed Voters",
+            "date":"April 2024",
+            "publication":"The Reed Inquirer",
+            "about":"Interactive data-based explainer on flaws in the college's vote counting process.",
+            "link":"https://reedinquirer.org/ranked-choice.html",
+            "type":"Data-Driven",
+            "award":"Reporter of the Year Honoree"
+        },
+        {
+            "image":"images/targeted-colleges.png",
+            "title":"Non-Credible Bomb Threat Targeted Reed, 200+ Other Colleges, Data Shows",
+            "date":"March 2024",
+            "publication":"The Reed Inquirer",
+            "link":"https://reedinquirer.org/#bomb-threat",
+            "type":"Data-Driven",
+            "award":"Reporter of the Year Honoree"
+        },
+        {
+            "image":"images/silo.png",
+            "title":"Silo Review: The Flamekeepers",
+            "date":"August 2023",
+            "publication":"The Reed College Quest",
+            "link":"clips/silo_clip.pdf",
+            "type":"Review",
+            "award":"Reporter of the Year Honoree"
+        }
+    ]
+}

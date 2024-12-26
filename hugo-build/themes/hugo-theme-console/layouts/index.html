@@ -1,0 +1,138 @@
+{{ define "main" }}
+
+<h1>echo $ME</h1>
+
+<p>
+> Declan Bradley is a reporting intern for <a href="https://www.chronicle.com/author/declan-bradley">The Chronicle of Higher Education</a> and transfer 
+student at <a href="https://www.oberlin.edu/">Oberlin College</a>. He is a graduate of the <a href="https://ledeprogram.com/">Lede Program</a> for Data Journalism at 
+<a href="https://journalism.columbia.edu/">Columbia University</a>, and lives in Washington, D.C. In 2024, he was named Reporter of the Year by the Associated Collegiate Press. <a href="DeclanBradley_Resume.pdf">See his resume</a>.</p> 
+
+<p>
+> His work, including <a href="https://declanrjb.github.io/congress-finance">visualizations of national campaign finance data</a> 
+and an <a href="clips/systems-flaw.pdf">investigation into the improper storage of student data</a> at 
+Reed College, has won top awards from the ACP in <a href="clips/systems-flaw.pdf">news writing</a>, <a href="clips/silo_clip.pdf">opinion</a>, and <a href="https://declanrjb.github.io/congress-finance">multimedia journalism</a>.</p> 
+
+<p>
+> His passion for data reporting has led him to volunteer as an analyst and scraper for both 
+the <a href="https://www.data-liberation-project.org/">Data Liberation Project</a> and <a href="http://openelections.net/">Open Elections</a>, and he currently serves as a web developer 
+for the <a href="https://www.policefilesny.com/">Behind the Badge Project</a> at <a href="https://www.muckrock.com/">MuckRock</a>.
+</p>
+
+<p>> Find him on <a href="https://www.linkedin.com/in/declan-bradley-1a7685285/">LinkedIn <i class="fa-brands fa-linkedin"></i></a>, <a href="https://github.com/declanrjb">GitHub <i class="fa-brands fa-github"></i></a>, and <a href="https://bsky.app/profile/declanrjb.bsky.social">BlueSky <i class="fa-brands fa-square-bluesky"></i></a>.</p>
+
+<h1>Reporter of the Year Portfolio</h1>
+
+<div class="posts-list">
+    <div class="posts-grid">
+        {{ $data := dict }}
+        {{ $path := "rop-portfolio.json" }}
+        {{ with resources.Get $path }}
+            {{ with . | transform.Unmarshal }}
+                {{ $data = . }}
+                {{ range first 12 $data.clips }}
+                    <a href="{{.link}}" class="post-wrapper"><div class="post rop-post">
+                            {{if .award }}
+                                <div class="award">{{ .award }}</div>
+                            {{ end }}
+                            <img class="post-image" src="{{.image}}">
+                            <div class="post-blurb">
+                                <h3 class="post-title">{{.title}}</h3>
+                                <p>{{.date}} | <a class='publication'>{{.publication}}</a></p>
+                            </div>
+                        </div></a>
+                {{ end }}
+                <div style="clear: both"></div>
+            {{ end }}
+        {{ else }}
+            {{ errorf "Unable to get global resource %q" $path }}
+        {{ end }}
+    </div>
+</div>
+
+<h1>Latest Work</h1>
+
+<div class="posts-list" id="posts-redacted">
+    <div class="posts-grid">
+        {{ $data := dict }}
+        {{ $path := "portfolio.json" }}
+        {{ with resources.Get $path }}
+            {{ with . | transform.Unmarshal }}
+                {{ $data = . }}
+                {{ range first 6 $data.clips }}
+                    <a href="{{.link}}" class="post-wrapper"><div class="post">
+                            {{if .award }}
+                                <div class="award">{{ .award }}</div>
+                            {{ end }}
+                            <img class="post-image" src="{{.image}}">
+                            <div class="post-blurb">
+                                <h3 class="post-title">{{.title}}</h3>
+                                <p>{{.date}} | <a class='publication'>{{.publication}}</a></p>
+                            </div>
+                        </div></a>
+                {{ end }}
+                <div style="clear: both"></div>
+            {{ end }}
+        {{ else }}
+            {{ errorf "Unable to get global resource %q" $path }}
+        {{ end }}
+    </div>
+</div>
+
+<div class="posts-list" id="posts-full">
+    <div class="posts-grid">
+        {{ $data := dict }}
+        {{ $path := "portfolio.json" }}
+        {{ with resources.Get $path }}
+            {{ with . | transform.Unmarshal }}
+                {{ $data = . }}
+                {{ range first 12 $data.clips }}
+                    <a href="{{.link}}" class="post-wrapper"><div class="post">
+                            {{if .award }}
+                                <div class="award">{{ .award }}</div>
+                            {{ end }}
+                            <img class="post-image" src="{{.image}}">
+                            <div class="post-blurb">
+                                <h3 class="post-title">{{.title}}</h3>
+                                <p>{{.date}} | <a class='publication'>{{.publication}}</a></p>
+                            </div>
+                        </div></a>
+                {{ end }}
+                <div style="clear: both"></div>
+            {{ end }}
+        {{ else }}
+            {{ errorf "Unable to get global resource %q" $path }}
+        {{ end }}
+    </div>
+</div>
+
+<h2 class="read-more" id="stories-more"><a>Read more <i class="fa-solid fa-caret-down"></i></a></h2>
+<h2 class="read-more" id="stories-less"><a>Read less <i class="fa-solid fa-caret-up"></i></a></h2>
+
+<h1>Dev Projects</h1>
+
+<div class="posts-list">
+    <div class="posts-grid">
+        {{ $data := dict }}
+        {{ $path := "dev-projects.json" }}
+        {{ with resources.Get $path }}
+            {{ with . | transform.Unmarshal }}
+                {{ $data = . }}
+                {{ range first 6 $data.clips }}
+                    <a href="{{.link}}" class="project-wrapper"><div class="project">
+                            <div class="project-blurb">
+                                <h3 class="project-title"><i class="fa-solid fa-code" style="color: lightgrey;"></i> {{.title}}</h3>
+                                <p class="project-description">{{ .description }}</p>
+                            </div>
+                        </div></a>
+                {{ end }}
+                <div style="clear: both"></div>
+            {{ end }}
+        {{ else }}
+            {{ errorf "Unable to get global resource %q" $path }}
+        {{ end }}
+    </div>
+</div>
+
+<h2 class="read-more" id="projects-more"><a href="https://github.com/declanrjb">See more <i class="fa-solid fa-arrow-right"></i></a></h2>
+
+{{ end }}
