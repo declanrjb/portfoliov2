@@ -19,6 +19,7 @@ column {
 
 #headshot {
     border-radius: 100%;
+    width: calc(100%);
 }
 
 .about-text {
