@@ -1,6 +1,22 @@
 {
     "clips":[
         {
+            "image":"images/bradley-congress.jpg",
+            "title":"The Colleges that Shape Congress",
+            "date":"December 2024",
+            "publication":"The Chronicle of Higher Education",
+            "link":"https://www.chronicle.com/article/the-colleges-that-shape-congress",
+            "type":"Data-Driven"
+        },
+        {
+            "image":"images/chronicle_student-texts.webp",
+            "title":"Why Political Text Blasts Targeting College Students Are Drawing Outrage ",
+            "date":"October 2024",
+            "publication":"The Chronicle of Higher Education",
+            "link":"https://www.chronicle.com/article/why-political-text-blasts-targeting-college-students-are-drawing-outrage",
+            "type":"Writing & Reporting"
+        },
+        {
             "image":"images/inmate-complaints.png",
             "title":"Federal Inmates Have Filed Millions of Complaints Against Their Jailers. Most Go Unheard.",
             "date":"July 2024",
@@ -9,11 +25,11 @@
             "type":"Lede Program @ CU"
         },
         {
-            "image":"images/bradley-congress.jpg",
-            "title":"The Colleges that Shape Congress",
-            "date":"December 2024",
+            "image":"images/chronicle_chart-art.webp",
+            "title":"At U. of Wisconsin, Underrepresented Students of Color Were Half as Likely to Be Accepted This Year",
+            "date":"September 2024",
             "publication":"The Chronicle of Higher Education",
-            "link":"https://www.chronicle.com/article/the-colleges-that-shape-congress",
+            "link":"https://www.chronicle.com/article/at-u-of-wisconsin-underrepresented-students-of-color-were-half-as-likely-to-be-accepted-this-year",
             "type":"Data-Driven"
         },
         {
@@ -35,41 +51,6 @@
             "type":"Data-Driven"
         },
         {
-            "image":"images/chronicle_student-texts.webp",
-            "title":"Why Political Text Blasts Targeting College Students Are Drawing Outrage ",
-            "date":"October 2024",
-            "publication":"The Chronicle of Higher Education",
-            "link":"https://www.chronicle.com/article/why-political-text-blasts-targeting-college-students-are-drawing-outrage",
-            "type":"Writing & Reporting"
-        },
-        {
-            "image":"images/chronicle_chart-art.webp",
-            "title":"At U. of Wisconsin, Underrepresented Students of Color Were Half as Likely to Be Accepted This Year",
-            "date":"September 2024",
-            "publication":"The Chronicle of Higher Education",
-            "link":"https://www.chronicle.com/article/at-u-of-wisconsin-underrepresented-students-of-color-were-half-as-likely-to-be-accepted-this-year",
-            "type":"Data-Driven"
-        },
-        {
-            "image":"images/single-stv-box.png",
-            "title":"Electoral Counting Method Disenfranchises Reed Voters",
-            "date":"April 2024",
-            "publication":"The Reed Inquirer",
-            "about":"Interactive data-based explainer on flaws in the college's vote counting process.",
-            "link":"https://reedinquirer.org/ranked-choice.html",
-            "type":"Data-Driven",
-            "award":"Reporter of the Year Honoree"
-        },
-        {
-            "image":"images/valentine.jpg",
-            "title":"Getting to the Heart of Data at Reed",
-            "date":"March 2024",
-            "publication":"Reed Magazine",
-            "about":"Feature piece published in the college's alumni magazine.",
-            "link":"https://web.archive.org/web/20240806022058/https://www.reed.edu/reed-magazine/articles/2024/jess-yao-profile.html",
-            "type":"Writing & Reporting"
-        },
-        {
             "image":"images/targeted-colleges.png",
             "title":"Non-Credible Bomb Threat Targeted Reed, 200+ Other Colleges, Data Shows",
             "date":"March 2024",
@@ -77,14 +58,6 @@
             "link":"https://reedinquirer.org/#bomb-threat",
             "type":"Data-Driven",
             "award":"Reporter of the Year Honoree"
-        },
-        {
-            "image":"images/bop-cleaning.png",
-            "title":"Federal Inmate Complaints Data Cleaning & Scraping",
-            "date":"July 2024",
-            "publication":"The Data Liberation Project",
-            "link":"https://github.com/data-liberation-project/bop-inmate-complaint-data-processing",
-            "type":"Coding"
         }
     ]
 }
