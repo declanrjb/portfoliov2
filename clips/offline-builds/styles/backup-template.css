@@ -24,10 +24,18 @@ column {
     margin-bottom: 20px;
 }
 
-.caption {
+.photo-credit {
     text-align: right;
     text-transform: uppercase;
     font-size: 14px;
+    margin-top: 5px;
+}
+
+.caption {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 0px;
 }
 
 .tag {
@@ -97,6 +105,10 @@ p {
 
 .menu-name {
     text-align: left;
+}
+
+.article-body {
+    margin-bottom: 50px;
 }
 
 @media screen and (max-width: 1020px) {
