@@ -231,7 +231,7 @@ a {
     }
 
     .header-block {
-        position: fixed;
-        width: 17%;
+        position: relative;
+        width: 100%;
     }
 }
