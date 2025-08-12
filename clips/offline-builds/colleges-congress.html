@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles/backup-template.css">
+    <script src="https://kit.fontawesome.com/bb1d08a9b2.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function() {
+            $(".outlink").click(function() {
+                window.location = $(this).attr("href"); 
+                return false;
+            });
+        })
+    </script>
+</head>
+<body>
+    <div class="main-wrapper">
+        <column id="bio-column">
+            <div class="header-block">
+                <img id="headshot" src="../../images/ob-headshot_color.jpg">
+                <p class="menu-name">Declan Bradley</p>
+                <div class="outlinks">
+                    <div class="outlink" href="https://www.declanrjb.com/">
+                        About <i class="fa-solid fa-circle-info"></i></i>
+                    </div>
+                    <div class="outlink" href="../../DeclanBradley_Resume.pdf">
+                        Resume <i class="fa-regular fa-file-lines"></i>
+                    </div>
+                    <div class="outlink" href="https://github.com/declanrjb">
+                        GitHub <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div class="outlink" href="https://www.linkedin.com/in/declan-bradley-1a7685285/">
+                        LinkedIn <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </column>
+        <column style="width: 800px;">
+            <div class="article-content">
+                <div class="article-header">
+                    <p class="tag">Educational Background</p>
+                    <h1 class="headline">The Colleges That Shape Congress</h1>
+                    <p class="meta">
+                        <span class="byline">By Declan Bradley</span> | <span class="date">December 5, 2024</span>
+                    </p>
+                </div>
+                <div class="article-graphic">
+                    <iframe style="width: 100%; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/LP1bJ7FKYuc?si=S8G2Eullz2cDaxpz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="outsource-flag" style="margin-bottom: 100px;">
+                    <p>This article originally appeared in <i>The Chronicle of Higher Education</i>. Read the (paywalled) original <a href="https://www.chronicle.com/article/the-colleges-that-shape-congress">here</a>.</p>
+                </div>
+            </div>
+        </column>
+    </div>
+    
+</body>
