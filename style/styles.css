@@ -50,6 +50,8 @@ column {
     text-align: right;
     margin-right: 10px;
     pointer-events: all;
+    display: block;
+    text-decoration: none;
 }
 
 .outlink:hover {
