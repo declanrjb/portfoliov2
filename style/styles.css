@@ -105,6 +105,7 @@ a {
     margin-top: 20px;
     margin-bottom: 20px;
     cursor: pointer;
+    display: block;
 }
 
 .clip-image-column {

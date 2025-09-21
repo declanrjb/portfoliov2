@@ -11,10 +11,10 @@ function addChildClassed(parent,newClass,tag='div') {
 }
 
 $(function() {
-    $(".outlink").click(function() {
-        window.location = $(this).attr("href"); 
-        return false;
-    });
+    // $(".outlink").click(function() {
+    //     window.location = $(this).attr("href"); 
+    //     return false;
+    // });
 
     const clipHolder = document.querySelector('#main-clips')
 
@@ -25,7 +25,7 @@ $(function() {
         for (var i=0; i<data.length; i++) {
             var clipData = data[i];
     
-            var newClip = addChildClassed(clipHolder,'clip')
+            var newClip = addChildClassed(clipHolder,'clip', tag='a')
     
             var imageCol = addChildClassed(newClip,'clip-image-column')
             imageCol.classList.add('column')
