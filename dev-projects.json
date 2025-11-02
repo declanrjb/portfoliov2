@@ -1,0 +1,65 @@
+{
+    "clips":[
+        {
+            "title":"Mimir",
+            "tagline": "Transcribe and annotate audio from the web. Built by journalists, for journalists.",
+            "interface": "https://declanrjb.github.io/transcribe/",
+            "source": "https://github.com/declanrjb/transcribe",
+            "is_git": "true"
+        },
+        {
+            "title":"Wordbuddy",
+            "tagline": "Lightweight Python package for automating core tasks in a newspaper's production cycle.",
+            "source": "https://github.com/declanrjb/word-buddy",
+            "is_git": "true"
+        },
+        {
+            "title":"Table Delim",
+            "tagline": "Proposed expansion to natural_pdf to identify tables by page elements or regular expressions.",
+            "source": "https://github.com/declanrjb/naturalpdf-table-delim",
+            "is_git": "true"
+        },
+        {
+            "title":"Photo Locator",
+            "tagline": "Python utility to generate GeoJSON from photos stored in Apple's HEIC format. Useful for quickly mapping locations during on-the-beat reporting.",
+            "source": "https://github.com/declanrjb/photo-locator",
+            "is_git": "true"
+        },
+        {
+            "title":"Higher Ed Investigations Crawler",
+            "tagline": "Send an email summary whenever the department of ed opens a new investigation into a U.S. college.",
+            "source": "https://github.com/declanrjb/higher-ed-investigations-crawler",
+            "is_git": "true"
+        },
+        {
+            "title":"Behind the Badge",
+            "tagline": "A website making thousands of internal disciplinary files released by the New York state police accessible to the public.",
+            "source": "https://www.policefilesny.com/",
+            "is_git": "false"
+        },
+        {
+            "title": "Inmate Complaints Dashboard",
+            "tagline": "Data interface and accompanying API developed for the Data Liberation Project.",
+            "source": "https://github.com/declanrjb/inmate-complaints-api",
+            "is_git": "true"
+        },
+        {
+            "title": "Campaign Finance Network",
+            "tagline": "Interactive visualization of campaign finance data from the 2022 U.S. midterms. Winner of the 2023 ACP Multimedia Story of the Year Award.",
+            "source": "https://declanrjb.github.io/congress-finance/",
+            "is_git": "false"
+        },
+        {
+            "title": "The Colleges That Shape Congress",
+            "tagline": "Interactive graphics story produced for The Chronicle of Higher Education.",
+            "source": "https://www.declanrjb.com/clips/offline-builds/colleges-congress.html",
+            "is_git": "false"
+        },
+        {
+            "title": "Harris Spoke. Trump Tweeted.",
+            "tagline": "Interactive story experimenting with jQuery and scrollytelling to showcase a key moment in the 2024 Presidential race.",
+            "source": "https://github.com/declanrjb/kamala-trump-timing",
+            "is_git": "true"
+        }
+    ]
+}

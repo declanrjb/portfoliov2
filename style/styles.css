@@ -122,6 +122,11 @@ a {
     margin-left: 20px;
 }
 
+.dev-content-column {
+    width: calc(100% - 20px);
+    float: left;
+}
+
 .clip-image {
     margin-top: 0px;
     height: 100%;
