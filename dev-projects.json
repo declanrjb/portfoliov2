@@ -44,9 +44,9 @@
             "is_git": "true"
         },
         {
-            "title": "Campaign Finance Network",
-            "tagline": "Interactive visualization of campaign finance data from the 2022 U.S. midterms. Winner of the 2023 ACP Multimedia Story of the Year Award.",
-            "source": "https://declanrjb.github.io/congress-finance/",
+            "title": "Single Transferable Voting Visualizer",
+            "tagline": "Interactive visualization explaining inconsistencies in the application of STV counting to student elections.",
+            "source": "https://reedinquirer.org/ranked-choice.html",
             "is_git": "false"
         },
         {
