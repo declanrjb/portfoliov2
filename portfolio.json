@@ -25,6 +25,14 @@
             "type":"Lede Program @ CU"
         },
         {
+            "image":"clips/offline-builds/assets/snap.png",
+            "title":"Thirty Seven Thousand Lorain County Residents to Lose SNAP Benefits in November",
+            "date":"October 2025",
+            "publication":"The Oberlin Review",
+            "link":"clips/offline-builds/snap-shutdown.html",
+            "type":"Writing & Reporting"
+        },
+        {
             "image":"images/morehouse.webp",
             "title":"Soaring Application Numbers Suggest Historically Black Colleges Are Still in Vogue",
             "date":"December 2024",
@@ -48,24 +56,6 @@
             "award":"2nd News Writing (ACP)",
             "link":"clips/systems-flaw.pdf",
             "type":"Writing & Reporting"
-        },
-        {
-            "image":"images/congress-network.png",
-            "title":"By the Numbers: Exploring Campaign Finance in the 2022 US Midterms",
-            "date":"March 2023",
-            "publication":"The Reed College Quest",
-            "award":"2023 Multimedia Story of the Year (ACP)",
-            "link":"https://declanrjb.github.io/congress-finance",
-            "type":"Data-Driven"
-        },
-        {
-            "image":"images/targeted-colleges.png",
-            "title":"Non-Credible Bomb Threat Targeted Reed, 200+ Other Colleges, Data Shows",
-            "date":"March 2024",
-            "publication":"The Reed Inquirer",
-            "link":"https://reedinquirer.org/#bomb-threat",
-            "type":"Data-Driven",
-            "award":"Reporter of the Year Honoree"
         }
     ]
 }
