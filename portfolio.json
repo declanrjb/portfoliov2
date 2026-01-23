@@ -17,14 +17,6 @@
             "type":"Writing & Reporting"
         },
         {
-            "image":"images/inmate-complaints.png",
-            "title":"Federal Inmates Have Filed Millions of Complaints Against Their Jailers. Most Go Unheard.",
-            "date":"July 2024",
-            "publication":"Lede Program for Data Journalism @ Columbia University",
-            "link":"https://declanrjb.github.io/lede-project2/",
-            "type":"Lede Program @ CU"
-        },
-        {
             "image":"clips/offline-builds/assets/snap.png",
             "title":"Thirty Seven Thousand Lorain County Residents to Lose SNAP Benefits in November",
             "date":"October 2025",
@@ -47,15 +39,6 @@
             "publication":"The Chronicle of Higher Education",
             "link":"./clips/offline-builds/u-wisconsin.html",
             "type":"Data-Driven"
-        },
-        {
-            "image":"images/pidm_json_final.png",
-            "title":"Flaw in Campus Directory Exposes ID Numbers of Students, Staff, Faculty, Alumni",
-            "date":"September 2023",
-            "publication":"The Reed College Quest",
-            "award":"2nd News Writing (ACP)",
-            "link":"clips/systems-flaw.pdf",
-            "type":"Writing & Reporting"
         }
     ]
 }
