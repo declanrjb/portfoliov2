@@ -20,14 +20,14 @@
             "is_git": "false"
         },
         {
-            "title":"Table Delim",
-            "tagline": "Proposed expansion to natural_pdf to identify tables by page elements or regular expressions.",
-            "source": "https://github.com/declanrjb/naturalpdf-table-delim",
+            "title":"UniData",
+            "tagline": "Higher education data search engine for reporters.",
+            "source": "https://github.com/declanrjb/college-search",
             "is_git": "true"
         },
         {
             "title":"Photo Locator",
-            "tagline": "Python utility to generate GeoJSON from photos stored in Apple's HEIC format. Useful for quickly mapping locations during on-the-beat reporting.",
+            "tagline": "Python utility to generate GeoJSON from photos stored in Apple's HEIC format. Useful for quickly mapping locations during breaking news reporting.",
             "source": "https://github.com/declanrjb/photo-locator",
             "is_git": "true"
         },

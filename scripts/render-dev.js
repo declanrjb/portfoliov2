@@ -21,7 +21,7 @@ $(function() {
         for (var i=0; i<data.length; i++) {
             var clipData = data[i];
     
-            var newClip = addChildClassed(clipHolder,'clip', tag='a')
+            var newClip = addChildClassed(clipHolder,'clip dev-clip', tag='a')
     
             // var imageCol = addChildClassed(newClip,'clip-image-column')
             // imageCol.classList.add('column')
@@ -35,7 +35,7 @@ $(function() {
                 addChildClassed(contentCol,'clip-award','p').textContent = clipData['award']
             }
             if (clipData['is_git'] == 'true') {
-                addChildClassed(contentCol,'clip-title','h2').innerHTML = '<p>' + clipData['title'] + ' <i class="fa-brands fa-github"></i>' + '</p>'
+                addChildClassed(contentCol,'clip-title','h2').innerHTML = '<p><i class="fa-brands fa-github"></i> ' + clipData['title'] + '</p>'
             } else {
                 addChildClassed(contentCol,'clip-title','h2').innerHTML = '<p>' + clipData['title'] + '</p>'
             }
