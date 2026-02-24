@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<head>
+    <title>At U. of Wisconsin, Underrepresented Students of Color Were Half as Likely to Be Accepted This Year</title>
+    <link rel="stylesheet" href="styles/backup-template.css">
+    <script src="https://kit.fontawesome.com/bb1d08a9b2.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function() {
+            $(".outlink").click(function() {
+                window.location = $(this).attr("href"); 
+                return false;
+            });
+        })
+    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="../../magnifying-glass.ico">
+</head>
+<body>
+    <div class="main-wrapper">
+        <column id="bio-column">
+            <div class="header-block">
+                <img id="headshot" src="../../images/ob-headshot_color.jpg">
+                <p class="menu-name">Declan Bradley</p>
+                <div class="outlinks">
+                    <a class="outlink" href="https://www.declanrjb.com/">
+                        About <i class="fa-solid fa-circle-info"></i></i>
+                    </a>
+                    <a class="outlink" href="../../clips.html">
+                        Clips <i class="fa-solid fa-paperclip"></i>
+                    </a>
+                    <a class="outlink" href="../../DeclanBradley_Resume.pdf">
+                        Resume <i class="fa-regular fa-file-lines"></i>
+                    </a>
+                    <a class="outlink" href="https://github.com/declanrjb">
+                        GitHub <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a class="outlink" href="https://www.linkedin.com/in/declan-bradley-1a7685285/">
+                        LinkedIn <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </column>
+        <column style="width: 800px;">
+            <div class="article-content">
+                <div class="article-header">
+                    <p class="tag"></p>
+                    <h1 class="headline">Flaw in Campus Directory Exposes ID Numbers of Students, Staff, Faculty, Alumni</h1>
+                    <p class="meta">
+                        <span class="byline">By Declan Bradley</span> | <span class="date">September 29, 2023</span>
+                    </p>
+                </div>
+                <div class="article-graphic">
+                    <img class="article-thumbnail" src="../../images/pidm_json_final.png" style="height: 450px; object-fit: cover;">
+                    <p class="photo-credit">Declan Bradley</p>
+                </div>
+                <div class="outsource-flag">
+                    <p>This article originally appeared in <i>The Reed College Quest</i>. Read the original <a href="https://www.declanrjb.com/clips/systems-flaw.pdf">here</a>.</p>
+                </div>
+                <div class="article-body">
+                    <h2>Investigative reporting by the <i>Quest</i> confirmed that a vulnerability allowed any IRIS user, and in some
+                        cases the general public, to access ID numbers and clone ID cards of any Reed community member.</h2>
+                    <p>After first being alerted to the
+                        existence of a critical vulnerability
+                        in the IRIS system by a student who
+                        wished to remain anonymous, <i>Quest</i>
+                        reporters were able to independent-
+                        ly confirm that the college’s “campus
+                        directory” — which is accessible to
+                        all students — had unintentionally
+                        exposed the Reed ID numbers of all
+                        students, staff, and faculty.</p>
+                    <p>Furthermore, while the original
+                        vulnerability has now been closed,
+                        the <i>Quest</i> has reason to believe that
+                        one or more users retained locally
+                        saved copies of a spreadsheet that
+                        allows them to continue to obtain
+                        ID numbers for any user, leaving stu-
+                        dents, staff, and faculty continuously
+                        vulnerable to impersonation. Stu-
+                        dent sources have also asserted the
+                        existence of further vulnerabilities
+                        in the college’s harassment reporting
+                        system which, while unconfirmed,
+                        potentially exposed ID numbers for
+                        alumni in addition to current stu-
+                        dents, staff, and faculty.</p>
+                    <p>Investigative reporting by the
+                        <i>Quest</i> also confirmed that the prop-
+                        erties of Reed College ID cards are
+                        based directly on the owner’s ID
+                        number. Such magnetic swipe cards
+                        do little more than encode simple
+                        information — a line or two of text
+                        — on a physical object. In the case
+                        of Reed ID cards, that information
+                        seems to be a simple text file contain-
+                        ing the user’s ID number followed
+                        by their name. Combined with the
+                        ease of obtaining exposed ID num-
+                        bers, this means that any user could
+                        clone the ID card of any other user
+                        using a simple magnetic read/write
+                        device — standard models of which
+                        connect to a laptop through USB and
+                        cost about $90 from Amazon.</p>
+                    <p>Using such cloned
+                        ID cards, users could then spend
+                        board points, swipe through locked
+                        doors (including those meant to be
+                        closed to students), or otherwise
+                        impersonate the target to any auto-
+                        mated system at Reed that identifies
+                        community members by their ID
+                        cards.</p>
+                    <p>This raised concerns for some
+                        reporters about the security of the
+                        Reed Research Reactor, which the
+                        <i>Quest</i> was able to confirm uses swipe
+                        cards as at least one of its security
+                        steps. While Reactor Operators are forbidden to reveal the security pro-
+                        tocols of the reactor control room,
+                        one student who underwent reactor
+                        training confirmed anonymously
+                        that there are “a few more steps” nec-
+                        essary to gain access to the reactor
+                        than simply presenting a standard
+                        swipe card, which means the reactor
+                        is at least somewhat secured against
+                        this vulnerability.</p>
+                    <p>While the <i>Quest</i> only learned
+                        of the vulnerability during the first week of September, the
+                        anonymous source claimed it had
+                        been known by “multiple people in
+                        Reed CS [computer science]” since at
+                        least early 2023.</p>
+                    <p>In an email to the <i>Quest</i>, Reed
+                        Cybersecurity Architect Payam
+                        Damghani confirmed that the col-
+                        lege was first alerted to the issue by
+                        a student worker in IT in May 2023,
+                        which the <i>Quest</i> has independently
+                        confirmed. Despite this, the vulner-
+                        ability remained open through the
+                        beginning of September 2023, four
+                        months later, and reporters did not observe a patch to the IRIS system
+                        until September 16 — eleven days af-
+                        ter the IT department was contacted
+                        by the <i>Quest</i> on September 5.</p>
+                    <p>The original source claimed that
+                        students had made “several” fruitless
+                        attempts to alert the college to the
+                        seriousness of the issue, although
+                        the <i>Quest</i> has been unable to confirm
+                        this beyond the original May report.
+                        The source said that they had chosen
+                        to come to the <i>Quest</i> with this infor-
+                        mation at least partially because “it
+                        seemed like the only way to get any
+                        of this fixed.” “I know it had been
+                        brought up internally previously but
+                        nothing seemed to have been done
+                        about it,” the source said, “it didn’t
+                        seem like they would have any moti-
+                        vation to fix it without external pres-
+                        sure.”</p>
+                    <p>The <i>Quest</i> first formally alerted
+                        Mr. Damghani and Information and
+                        Security Officer Valerie Moreno to
+                        the existence of the vulnerability on
+                        the afternoon of September 5. When
+                        neither Mr. Damghani nor Ms. More-
+                        no responded by noon on September
+                        8, a <i>Quest</i> reporter, considering it an
+                        urgent issue, approached Director
+                        of Instructional Technology Services
+                        Trina Marmarelli — a professional in
+                        a different division of IT who is not involved in systems security — in her
+                        office. The <i>Quest</i> reporter asked if the
+                        IT department had received the alert.
+                        Ms. Marmarelli did not seem previ-
+                        ously aware of the details of the case
+                        but promised to pass along the request. The <i>Quest</i> received a response
+                        from Mr. Damghani soon after.</p>
+                    <p>Anonymous sources within IT say
+                        that, since that date, the existence
+                        of the vulnerability — and students’
+                        knowledge of it — has been kept se-
+                        cret even from many Reed IT profes-
+                        sionals. At an all-staff meeting of IT
+                        on September 13, only a brief men-
+                        tion of IRIS maintenance was made,
+                        and the flaw was alluded to, “only in
+                        the vaguest possible terms.”</p>
+                    <p>Director of Technology Infra-
+                        structure Services Gabe Leavitt,
+                        meanwhile, said in an email to the
+                        <i>Quest</i> on September 8 that he was not
+                        told of the paper’s attempt to notify
+                        the department until that afternoon,
+                        three days after it was originally sent.</p>
+                    <p>The <i>Quest</i> was initially hesitant to
+                        publish information that would make
+                        the vulnerability easier to replicate,
+                        and on September 12 Mr. Damghani
+                        suggested that a 90-day embargo on
+                        the story would be “industry stan-
+                        dard.” However, the shutdown of the
+                        IRIS system for “maintenance” be-
+                        tween September 16 and 17 appeared
+                        to patch the most public-facing parts
+                        of the vulnerability, which sources
+                        from both within and without Reed
+                        IT have assured the <i>Quest</i> are no lon-
+                        ger functional.</p>
+                    <p>On the afternoon of September
+                        22, a lawyer with the Student Press
+                        Law Center assured the <i>Quest</i> that
+                        coverage of the vulnerability would
+                        likely be protected, and that report-
+                        ers may even have been “too respon-
+                        sible” in delaying their story to give
+                        the IT department time to fix the
+                        issue.</p>
+                    <p>Prior to the patch, users were
+                        identified in the IRIS database by an
+                        8-digit number known as a PIDM.
+                        Such PIDMs were stored openly in
+                        the URL strings for each user’s page
+                        — obtaining one was as simple as
+                        searching for that user, clicking on
+                        their name, and then copying their PIDM from the address bar in any
+                        browser. (URLs followed the format:
+                        “https://iris.reed.edu/directory/
+                        campus/[PIDM]”)</p>
+                    <p>This was intentional. In an email
+                        to the <i>Quest</i>, Mr. Damghani said that
+                        PIDMs “were originally intended
+                        by Reed IT to be a publicly-visible
+                        unique user identifier specifically for
+                        use by web applications.”</p>
+                    <p>However, students discovered
+                        that PIDMs were calculated by simply taking a user’s Reed ID number
+                        and adding a fixed constant. For
+                        example, if a student’s ID number
+                        was 20001000, their PIDM would be
+                        20002000 (20001000 + 1000). While
+                        the actual fixed offset was not 1000,
+                        and the <i>Quest</i> will withhold the true
+                        value, the value seemed to be consistent across all Reed community
+                        members.</p>
+                    <p>While reporters were careful not
+                        to access sensitive data themselves,
+                        the <i>Quest</i> was able to independently
+                        confirm that the fixed offset method
+                        correctly produced ID numbers to a
+                        high rate of accuracy across all students, staff, and faculty, something
+                        not even the original source had been
+                        able to confirm at scale. This meant
+                        that any student, after calculating
+                        the difference between their own
+                        ID number and PIDM with a simple
+                        phone calculator, could extrapolate
+                        the ID number of any other student,
+                        faculty, or staff member, up to and including the level of the president.</p>
+                    <p>“Oh, yeah, I have Audrey Bilger’s
+                        ID,” said one student, casually, while
+                        speaking with a <i>Quest</i> reporter.</p>
+                    <p>Even more significantly, further
+                        vulnerabilities in the autocomplete
+                        function of the IRIS database allowed
+                        any user to obtain a spreadsheet of all
+                        Reed community members containing each person’s name, PIDM number, and position at the college (job
+                        title, status as a student, etc.)</p>
+                    <p>For the more technical reader, the
+                        autocomplete function sent whatever input the user typed to a remote da-
+                        tabase containing all possible search
+                        results and then returned the matching rows. However, the URL format of
+                        the search function allowed anyone with basic programming knowledge
+                        to simply send the star character (*)
+                        — which in computer science stands
+                        for “everything” — as an input. Any
+                        user could therefore simply request
+                        results matching “everything,” and
+                        the system would promptly dispense
+                        the entire database as a pre-formatted JSON or CSV table.</p>
+                    <p>Critically, these files of all PIDM
+                        data could then be easily downloaded by the user and saved to their
+                        computer. While this access has now
+                        been cut off, the <i>Quest</i> has been, and
+                        will be, unable to confirm how many
+                        users accessed this data or currently
+                        retain local copies of it.</p>
+                    <p>The <i>Quest</i> contacted IT on September 25 to ask how many copies
+                        of the data were downloaded during
+                        the at least four months it was available, and if the department had any
+                        way to ascertain that number. Mr.
+                        Damghani responded, “We are investigating potential access to the
+                        affected systems. We currently do not
+                        have any conclusive information that
+                        would indicate widespread access to
+                        or abuse of the affected systems that
+                        would be a violation of the college’s
+                        Computer User Agreement.”</p>
+                    <p>While the IRIS system appears to
+                        have been overhauled, student, staff,
+                        and faculty ID cards are physical,
+                        non-connected objects that can’t be
+                        altered remotely. That means that the
+                        only way to completely protect Reed
+                        ID cards from the risk posed by the
+                        ID spreadsheet is to recall them and
+                        physically run each one through a
+                        read/write machine. This would also
+                        likely require the college to reset all
+                        student, staff, and faculty ID numbers
+                        to new — ideally random — values.</p>
+                    <p>When the <i>Quest</i> asked IT if the
+                        college plans to carry out such a mass
+                        rewrite of ID cards, and when, Mr.
+                        Damghani repeated his exact words
+                        that the department does not “have
+                        any conclusive information” that
+                        would suggest “widespread access”
+                        to the system, and added that, “[IT
+                        is] working with our vendor to implement ISO codes for our card access
+                        system which would in turn address
+                        the issue of the unique identifier.”</p>
+                    <p>Meanwhile, since the overhaul
+                        was implemented over the weekend
+                        of the 16th, student sources have
+                        continued to test the vulnerabilities
+                        of the system. One, who would only
+                        speak on the condition of anonymity,
+                        claimed to have identified a further
+                        flaw in the college’s harassment reporting form that simply printed the
+                        raw Reed ID numbers of all students,
+                        faculty, staff, and alumni — both
+                        making the step of converting between PIDMs and IDs unnecessary
+                        and raising the number of affected
+                        individuals into the thousands.</p>
+                    <p>Critically, this flaw also bypassed
+                        the ‘directory visibility’ property, meaning that even community
+                        members who had opted out of the
+                        campus directory were still at risk.
+                        The <i>Quest</i> alerted IT to this new flaw
+                        on September 25, but will not print
+                        the details of the vulnerability, even
+                        though it had been fixed by the time
+                        the paper went to print on Wednesday night.</p>
+                    <p>Further such flaws, which had not
+                        been fixed at the time of publication,
+                        continue to expose PIDM numbers
+                        of either students or Reed employees
+                        through at least three different avenues — all of which the <i>Quest</i> alerted
+                        IT to on the 25th. One of these also
+                        overrides the ‘directory visibility’
+                        property.</p>
+                    <p>While it is important to note that,
+                        since the September 16 update, these
+                        vulnerabilities only return ten rows
+                        of data at a time, there is nothing to
+                        stop users from simply making repeated requests until all of the data is
+                        eventually returned.</p>
+                    <p>The <i>Quest</i> has not been able to
+                        independently confirm these vulnerabilities, but reporters have seen
+                        screenshots that seem to demonstrate their existence. If real, these
+                        gaps in security remained open after
+                        the weekend overhaul of IRIS — and
+                        there is no way for individual users to
+                        protect themselves or their information.</p>
+                    <p><i>This is a developing story and the</i>
+                        Quest <i>will continue to follow it in the
+                        coming weeks.</i></p>
+                </div>
+            </div>
+        </column>
+    </div>
+    
+</body>

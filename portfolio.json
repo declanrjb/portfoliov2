@@ -17,6 +17,14 @@
             "type":"Writing & Reporting"
         },
         {
+            "image":"images/pidm_json_final.png",
+            "title":"Flaw in Campus Directory Exposes ID Numbers of Students, Staff, Faculty, Alumni ",
+            "date":"September 2023",
+            "publication":"The Reed College Quest",
+            "link":"./clips/offline-builds/systems-flaw.html",
+            "type":"Writing & Reporting"
+        },
+        {
             "image":"clips/offline-builds/assets/snap.png",
             "title":"Thirty Seven Thousand Lorain County Residents to Lose SNAP Benefits in November",
             "date":"October 2025",
