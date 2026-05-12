@@ -1,6 +1,14 @@
 {
     "clips":[
         {
+            "image":"images/investments_globe.png",
+            "title":"Oberlin College Invested $1.2 Million in Israeli Companies in 2021, Investigation Finds",
+            "date":"May 2026",
+            "publication":"The Oberlin Review",
+            "link":"./clips/offline-builds/ob-investments.html",
+            "type":"Writing & Reporting"
+        },
+        {
             "image":"images/bradley-congress.jpg",
             "title":"The Colleges that Shape Congress",
             "date":"December 2024",
