@@ -6,15 +6,8 @@
             "date":"May 2026",
             "publication":"The Oberlin Review",
             "link":"./clips/offline-builds/ob-investments.html",
-            "type":"Writing & Reporting"
-        },
-        {
-            "image":"images/bradley-congress.jpg",
-            "title":"The Colleges that Shape Congress",
-            "date":"December 2024",
-            "publication":"The Chronicle of Higher Education",
-            "link":"./clips/offline-builds/colleges-congress.html",
-            "type":"Data-Driven"
+            "type":"Writing & Reporting",
+            "description": "After 20 years of repeated student calls for endowment transparency, my reporting identified more than $52 million of Oberlin's foreign investments for the first time, drawing on previously unreported documents that I discovered in a public IRS database. My research to extend and confirm the story sparked by those documents involved hundreds of pages of records, geolocation in R, the SEC's EDGAR database, and late nights spent translating documents from Hebrew and comparing street addresses found in incorporation documents pulled from national business registries across the world. In the process, I was able to build a database that provides unprecedented insight into the foreign investments of a highly selective private liberal arts college."
         },
         {
             "image":"images/chronicle_student-texts.webp",
@@ -22,7 +15,17 @@
             "date":"October 2024",
             "publication":"The Chronicle of Higher Education",
             "link":"./clips/offline-builds/political-texts.html",
-            "type":"Writing & Reporting"
+            "type":"Writing & Reporting",
+            "description": "This story gave me a chance to report on the 2024 general election from an unusual local angle: college students' outrage at receiving political texts. At public universities, students' phone numbers are considered government records, making them accessible to FOIA. After the Harris campaign used this loophole to mass text students at Arizona State, triggering outrage from the University's Young Republicans, I FOIAed the FOIA logs at universities across the country to identify the companies acquiring and selling student numbers to advertisers and political campaigns. As an investigative reporter, FOIA is my bread and butter. Reporting this story let me draw back on the curtain on how advertisers and politicians use those same freedom of information laws for their own ends."
+        },
+        {
+            "image":"images/bradley-congress.jpg",
+            "title":"The Colleges that Shape Congress",
+            "date":"December 2024",
+            "publication":"The Chronicle of Higher Education",
+            "link":"./clips/offline-builds/colleges-congress.html",
+            "type":"Data-Driven",
+            "description": "As an intern for the Chronicle of Higher Ed, I had the rare chance to shepherd this piece from pitch to publication. I scraped data from the Congressional Bioguide, parsed it using Python and regular expressions, and analyzed the data in R. I developed the data visualizations in Flourish and built the accompanying scrollytelling page using HTML, CSS, and jQuery. Doing so taught me a great deal about the production workflow of a large newsroom – as I consulted closely with news editors, web developers, and the data team to move the piece forward."
         },
         {
             "image":"images/pidm_json_final.png",
@@ -30,7 +33,8 @@
             "date":"September 2023",
             "publication":"The Reed College Quest",
             "link":"./clips/offline-builds/systems-flaw.html",
-            "type":"Writing & Reporting"
+            "type":"Writing & Reporting",
+            "description": "For months, Reed College computer science students had begged college IT to fix serious security flaws in the campus database that would have allowed those in the know to impersonate effectively anyone, from stealing another student's meal swipes to opening locked doors as the director of campus safety. Their concerns had been ignored, and – we later learned – their fixes dismissed for being too expensive. They came to me because they trusted my reporting, and because my background in computer science reassured them that I could both understand the technical complexity of what they had found and explain it to a general audience. We persisted in publishing the story despite pressure from college IT and a last-minute email to every enrolled student the night before publication telling them, essentially, not to trust the student paper. (This had something of a Streisand Effect.)"
         },
         {
             "image":"clips/offline-builds/assets/snap.png",
@@ -38,7 +42,8 @@
             "date":"October 2025",
             "publication":"The Oberlin Review",
             "link":"clips/offline-builds/snap-shutdown.html",
-            "type":"Writing & Reporting"
+            "type":"Writing & Reporting",
+            "description": "During the federal government shutdown, I visited a local food bank to speak with those affected by the loss of SNAP benefits. I drew on both data from Open Data Ohio and interviews with those I met waiting in line for food to describe how policy fights in D.C. were affecting residents in my community."
         },
         {
             "image":"images/morehouse.webp",
@@ -46,7 +51,8 @@
             "date":"December 2024",
             "publication":"The Chronicle of Higher Education",
             "link":"./clips/offline-builds/hbcus.html",
-            "type":"Data-Driven"
+            "type":"Data-Driven",
+            "description": "This fast-turnaround story gave me a chance to analyze a cultural moment from a data angle. The day the annual IPEDs admissions data file was released by the Department of Education, I spent a few hours exploring the data, testing hypotheses and looking for story ideas. The spike in applications to HBCUs immediately stood out, and a story was born. Interestingly, my data analysis also led me to question the conclusions of other reporters, who had attributed a larger share of the spike in applications to the launch of the Common Black College Application. My analysis showed that while applications through the CBCA were growing, they remained a small fraction of the overall surge in applications."
         },
         {
             "image":"images/chronicle_chart-art.webp",
@@ -54,7 +60,8 @@
             "date":"September 2024",
             "publication":"The Chronicle of Higher Education",
             "link":"./clips/offline-builds/u-wisconsin.html",
-            "type":"Data-Driven"
+            "type":"Data-Driven",
+            "description": "This story began with a Slack message from my editor containing an attached Excel file and a request to analyze it. I responded that the file – which contained admissions data for the University of Wisconsin Madison broken down by racial/ethnic group – provided an unprecedented level of insight into the University's race-conscious admissions process. My reporting identified not only significant disparities in admission rates, but wild swings in those rates following the Supreme Court's 2023 decision to outlaw affirmative action. While it is common for institutions to release the demographic details of their enrolled class, to this day I am not aware of any other cases of an institution releasing racial data on the admissions process itself."
         }
     ]
 }

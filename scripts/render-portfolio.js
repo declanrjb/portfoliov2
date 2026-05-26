@@ -44,11 +44,15 @@ $(function() {
             addChildClassed(metadataElem,'clip-date','a').textContent = clipData['date']
             metadataElem.textContent += ' | '
             addChildClassed(metadataElem,'clip-publication','a').textContent = clipData['publication']
+
+            var descriptionElem = addChildClassed(contentCol,'clip-description','p')
+            descriptionElem.textContent = clipData['description']
     
             /*addChildClassed(contentCol,'clip-about','p').textContent = clipData['about']*/
     
             newClip.setAttribute('href',clipData['link'])
             newClip.setAttribute('type',clipData['type'])
+            $(newClip).height($(contentCol).height())
     
             newClip.onclick = function() {
                 window.open(this.getAttribute('href'),'_self')
