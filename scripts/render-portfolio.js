@@ -25,7 +25,7 @@ $(function() {
         for (var i=0; i<data.length; i++) {
             var clipData = data[i];
     
-            var newClip = addChildClassed(clipHolder,'clip', tag='a')
+            var newClip = addChildClassed(clipHolder,'clip', tag='div')
     
             var imageCol = addChildClassed(newClip,'clip-image-column')
             imageCol.classList.add('column')
@@ -34,12 +34,21 @@ $(function() {
     
             var clipImage = addChildClassed(imageCol,'clip-image','img')
             clipImage.setAttribute('src',clipData['image'])
+
+            if (clipData['git']) {
+                clipGit = addChildClassed(imageCol, 'clip-git', 'a')
+                $(clipGit).html('Open Source <i class="fa-brands fa-github"></i>')
+                clipGit.href = clipData['git']
+            }
     
             if ('award' in clipData) {
                 addChildClassed(contentCol,'clip-award','p').textContent = clipData['award']
             }
-            addChildClassed(contentCol,'clip-title','h2').textContent = clipData['title']
-    
+            clipTitle = addChildClassed(contentCol,'clip-title','a')
+            clipTitle.textContent = clipData['title']
+            clipTitle.href = clipData['link']
+            
+
             var metadataElem = addChildClassed(contentCol,'clip-metadata','p')
             addChildClassed(metadataElem,'clip-date','a').textContent = clipData['date']
             metadataElem.textContent += ' | '
@@ -50,13 +59,13 @@ $(function() {
     
             /*addChildClassed(contentCol,'clip-about','p').textContent = clipData['about']*/
     
-            newClip.setAttribute('href',clipData['link'])
+            // newClip.setAttribute('href',clipData['link'])
             newClip.setAttribute('type',clipData['type'])
             $(newClip).height($(contentCol).height())
     
-            newClip.onclick = function() {
-                window.open(this.getAttribute('href'),'_self')
-            }
+            // newClip.onclick = function() {
+            //     window.open(this.getAttribute('href'),'_self')
+            // }
         }
     })
 

@@ -105,14 +105,13 @@ a {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
-    cursor: pointer;
     display: block;
 }
 
 .clip-image-column {
     width: 25%;
     float: left;
-    height: fit-content%;
+    height: fit-content;
 }
 
 .clip-content-column {
@@ -127,15 +126,18 @@ a {
 }
 
 .clip-image {
-    margin-top: 10px;
+    margin-top: 5px;
     width: 100%;
     object-fit: cover;
     aspect-ratio: 1/1;
 }
 
 .clip-title {
-    margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .clip-award {
@@ -205,6 +207,19 @@ a {
 
 #content-column {
     width: 78%;
+}
+
+.clip-git {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 820px) {
