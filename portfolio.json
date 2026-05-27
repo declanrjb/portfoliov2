@@ -7,7 +7,7 @@
             "publication":"The Oberlin Review",
             "link":"./clips/offline-builds/ob-investments.html",
             "type":"Writing & Reporting",
-            "description": "After 20 years of repeated student calls for endowment transparency, my reporting identified more than $52 million of Oberlin's foreign investments for the first time, drawing on previously unreported documents that I discovered in a public IRS database. My research involved hundreds of pages of records, geolocation, the SEC's EDGAR database, and late nights spent translating documents from Hebrew and comparing street addresses found in incorporation documents pulled from national business registries across the world. In the process, I was able to build a database that provides unprecedented insight into the foreign investments of a highly selective private liberal arts college.",
+            "description": "After 20 years of repeated student calls for endowment transparency, my reporting identified more than $52 million of Oberlin's foreign investments for the first time, drawing on previously unreported documents that I discovered in a public IRS database. My research involved hundreds of pages of records, geolocation, the SEC's EDGAR database, and incorporation filings pulled from national business registries across the world. In the process, I was able to build a database that provides unprecedented insight into the foreign investments of a highly selective private liberal arts college.",
             "git": "https://github.com/declanrjb/ob-investments"
         },
         {
