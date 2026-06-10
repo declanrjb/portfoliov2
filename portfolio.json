@@ -1,6 +1,15 @@
 {
     "clips":[
         {
+            "image":"clips/offline-builds/assets/trump-truths.webp",
+            "title":"The truth about Trump’s Truths",
+            "date":"June 2026",
+            "publication":"POLITICO",
+            "link":"https://www.politico.com/news/2026/06/05/trump-social-media-analysis-00952006",
+            "type":"Writing & Reporting",
+            "description": "As a POLITICO Journalism Institute trainee on the breaking news desk, I developed this original analysis of one month of U.S. President Donald Trump's Truth Social posts. POLITICO reporter Gregory Svirnovskiy and I personally read 844 of Trump's posts twice each, categorizing them based on their text, images, and associated links. I conducted all data analysis for the final story, and also developed the associated charts in Datawrapper. My work was featured on POLITICO's homepage, BlueSky feed, in a push notification to subscribers, and as the headline story of the June 5, 2026 edition of West Wing Playbook."
+        },
+        {
             "image":"images/investments_globe.png",
             "title":"Oberlin College Invested $1.2 Million in Israeli Companies in 2021, Investigation Finds",
             "date":"May 2026",
@@ -36,15 +45,6 @@
             "link":"./clips/offline-builds/systems-flaw.html",
             "type":"Writing & Reporting",
             "description": "For months, Reed College computer science students had begged college IT to fix serious security flaws in the campus database that would have allowed those in the know to impersonate effectively anyone, from stealing another student's meal swipes to opening locked doors as the director of campus safety. Their concerns had been ignored, and – we later learned – their fixes dismissed for being too expensive. They came to me because they trusted my reporting, and because my background in computer science reassured them that I could both understand the technical complexity of what they had found and explain it to a general audience. We persisted in publishing the story despite pressure from college IT and a last-minute email to every enrolled student the night before publication telling them, essentially, not to trust the student paper. (This had something of a Streisand Effect.)"
-        },
-        {
-            "image":"clips/offline-builds/assets/snap.png",
-            "title":"Thirty Seven Thousand Lorain County Residents to Lose SNAP Benefits in November",
-            "date":"October 2025",
-            "publication":"The Oberlin Review",
-            "link":"clips/offline-builds/snap-shutdown.html",
-            "type":"Writing & Reporting",
-            "description": "During the federal government shutdown, I visited a local food bank to speak with those affected by the loss of SNAP benefits. I drew on both data from Open Data Ohio and interviews with those I met waiting in line for food to describe how policy fights in D.C. were affecting residents in my community."
         },
         {
             "image":"images/morehouse.webp",
