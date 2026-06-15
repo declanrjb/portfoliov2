@@ -62,7 +62,7 @@
             "publication":"The Chronicle of Higher Education",
             "link":"./clips/offline-builds/u-wisconsin.html",
             "type":"Data-Driven",
-            "description": "This story began with a Slack message from my editor containing an attached Excel file and a request to analyze it. I responded that the file – which contained admissions data for the University of Wisconsin Madison broken down by racial/ethnic group – provided an unprecedented level of insight into the University's race-conscious admissions process. My reporting identified not only significant disparities in admission rates, but wild swings in those rates following the Supreme Court's 2023 decision to outlaw affirmative action. While it is common for institutions to release the demographic details of their enrolled class, to this day I am not aware of any other cases of an institution releasing racial data on the admissions process itself."
+            "description": "This story began with a Slack message from my editor with a spreadsheet of admissions data for the University of Wisconsin Madison. She asked if there was anything interesting to see. I responded that the data, which was broken down by race / ethnicity, provided an unprecedented level of insight into the University's race-conscious admissions process. My reporting identified not only significant disparities in admission rates, but wild swings in those rates following the Supreme Court's 2023 decision to outlaw affirmative action. While it is common for institutions to release the demographic details of their enrolled class, to this day I am not aware of any other cases of an institution releasing racial data on the admissions process itself."
         }
     ]
 }
