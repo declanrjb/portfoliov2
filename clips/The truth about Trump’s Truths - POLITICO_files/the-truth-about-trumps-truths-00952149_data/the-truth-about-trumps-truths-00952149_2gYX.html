@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="Cache-Control" content="no-cache"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"></head><body><script>!function(n){function t(n){function t(n,e){n.postMessage("__adnxs_passback__0b8wt133l1783691645430","*"),n.top!==n&&e<50&&setTimeout(t(n.parent,++e),0)}n&&"noad"===n.data&&t(this.parent,0)}function e(n,t,e){n.addEventListener?n.addEventListener(t,e,!1):n.attachEvent&&n.attachEvent("on"+t,e)}function o(t){var e=n.parent["__adnxs_passback__0b8wt133l1783691645430"];e&&"function"==typeof e?e(t):console.log("anx-mediation: WARN > Couldn't callback into mediation with filled: ",t)}function i(t){e(n,"load",function(){m.getTargetId()?r(n,function(){setTimeout(t,0)}):setTimeout(t,0)})}function c(){ADNXSMediation.isAsync()||(s("load",c,!1),o(!0))}function a(n){var t=n.document;return n.contentDocument&&n.contentDocument.documentElement?t=n.contentDocument:n.contentWindow&&n.contentWindow.document&&(t=n.contentWindow.document),t}function r(n,t){function o(){if(u===++d)return t()}var i,c,u=0,d=0,f=m.getTargetId();try{if(i=a(n),i.querySelectorAll(f).length)return t();c=i.querySelectorAll("frame,iframe"),u=c.length}catch(n){return t()}if(0===u)return t();for(var s=0;s<u;s++){var l=c[s];e(l,"load",function(){r(l,o)})}}function u(n){f=n}e(n,"message",t);var d={wait:function(){i(c)},domready:function(){o(!0)},async:function(){}},f="wait",s=n.removeEventListener||function(t,e){n.detachEvent("on"+t,e)},l=function(){o(!1)},A=function(){o(!0)},m={noAd:l,noad:l,adFilled:A,adfilled:A,setAsync:function(){u("async"),n.ADNXSAsync=!0},isAsync:function(){return!!n.ADNXSAsync},setStrategy:u,setTargetId:function(t){n.ADNXSTargetId=t},getTargetId:function(){return n.ADNXSTargetId},ready:function(){var t=n.parent["__adnxs_passback__0b8wt133l1783691645430"];(d[f]||d.wait)(t)}};n.ADNXSMediation=m,n.ADNXSAsync=!1}(this);</script><script>
+    const w = function () {
+        let adlibWindow = null;
+        let frame = window;
+        while (frame) {
+            try {
+                if (frame.frames["__asadlibLocator"]) {
+                    adlibWindow = frame;
+                    break;
+                }
+            } catch {}
+            if (frame === window.top) {
+                break;
+            }
+            frame = frame.parent;
+        }
+        return adlibWindow;
+    }() || window;
+
+    const p = w.ASCDP.pageSet, t = w.ASCDP.adS,
+        ContId = window.parent.document.body.id, z = t.adElts[ContId],
+        orgSlotName = ContId.replace("_rlSlot", ""),
+        slotMapId = ContId.match("teaser") ? ContId : (orgSlotName.match(/(.*?)_\d.*/) || ["", orgSlotName])[1],
+        adunit = t.setPG("/6326/${zone}/${pageName}/${contentType}-${pageType}") + "/" + slotMapId,
+        xandrTag = w.apntag.requests.tags[ContId], adsNode = xandrTag.adResponse.ads,
+        targetKeys = [];
+
+    let secondBidPrice = parseFloat('0.31'),
+        dfpsizes = [[parseInt(window.frameElement.width), parseInt(window.frameElement.height)]],
+        localTargets = {
+            amazon_request: false,
+            hb_request: false,
+            xandrMediation: true
+        };
+
+    if (t.slotSizeMap[ContId]) {
+        dfpsizes = t.slotSizeMap[ContId][0].sizes;
+    } else if (t.slotSizeMap[slotMapId]) {
+        dfpsizes = t.slotSizeMap[slotMapId][0].sizes;
+    }
+
+    if (z.allowNative) {
+        dfpsizes.push("fluid");
+    }
+
+    z.Cont = window.parent.frameElement;
+    z.adFrame = window.frameElement;
+
+    z.tempName = "oneTag";
+    z.insertionId = "576389603";
+    z.contId = ContId;
+    z.moveEl = [];
+    z.center = "center";
+    z.xtraCSS = "";
+    z.dynSky = !1;
+    z.zIndex = 2000;
+    z.customCode = "";
+    z.loadAttempts = 0;
+    z.crea1 = {
+        type: "0",
+        code: "",
+        clickUrl: "",
+        clickUrlTarget: "_blank",
+        creativeId: Number("0"),
+        creativeUrl: "",
+        id: "banner",
+        options: {},
+        width: dfpsizes[0][0],
+        height: dfpsizes[0][1],
+        orgWidth: dfpsizes[0][0],
+        orgHeight: dfpsizes[0][1],
+        top: 0,
+        left: 0,
+        pos: "relative"
+    };
+    z.creas = [z.crea1];
+
+    const gamSlot = document.createElement("div");
+    gamSlot.id = "gam_" + z.contId;
+    z.adSlot.appendChild(gamSlot);
+
+    if (p.features.includes("prebid") && w.ASCDP.configs.prebid && w.pbjs) {
+        let pbRef = {};
+        if (z.pbObj) {
+            pbRef = z;
+        } else if (t.prtnKeys.once["gam_" + ContId]) {
+            pbRef = t.prtnKeys.once["gam_" + ContId];
+        } else if (t.prtnKeys.once[ContId]) {
+            pbRef = t.prtnKeys.once[ContId];
+        } else if (t.prtnKeys.once[slotMapId] && JSON.stringify(dfpsizes) === JSON.stringify(t.slotSizeMap[slotMapId][0].sizes)) {
+            pbRef = t.prtnKeys.once[slotMapId];
+        }
+        localTargets["hb_request"] = "true";
+        const pbBids = Object.assign({}, w.pbjs.getAdserverTargetingForAdUnitCode(ContId), w.pbjs.getAdserverTargetingForAdUnitCode("gam_" + ContId));
+        Object.assign(localTargets, pbBids);
+        let pbBidsPrices = [];
+        let hb_second_price = 0;
+        let hb_second_bidder = "";
+        for (const [key, value] of Object.entries(pbBids)) {
+            if (key.includes("hb_pb_")) {
+                pbBidsPrices.push({"bidder": key, "price": Math.round(value * 100)})
+            }
+        }
+        pbBidsPrices.sort(function (a, b) {
+            return b.price - a.price
+        });
+        if (z.hb_bidder || pbRef.pbObj) {
+            if (!z.hb_bidder) {
+                for (const pbkey in pbRef.pbObj) {
+                    if (pbRef.pbObj.hasOwnProperty(pbkey) && !pbkey.match(/pbAdCode|pbVast|renderer/)) {
+                        localTargets[pbkey] = z[pbkey] = JSON.parse(JSON.stringify(pbRef.pbObj[pbkey]));
+                    }
+                }
+            }
+            hb_price = z.hb_pb > 3600 ? 3600 : z.hb_pb;
+            localTargets[z.hb_bidder] = z.hb_bidder + "_" + z.hb_size + "_" + z.hb_pb;
+            localTargets["hb_repo"] = ContId + "§" + z.hb_bidder + "§" + z.hb_size;
+            localTargets["hb_w"] = z.hb_size.split("x")[0];
+            localTargets["hb_h"] = z.hb_size.split("x")[1];
+        }
+        if (z.teadsOutstream) {
+            const teads = z.teadsOutstream;
+            localTargets.teadsos = teads.hb_bidder + "_" + teads.hb_size + "_" + teads.hb_pb;
+            localTargets.teadsadid = teads.hb_adid;
+        }
+        if (pbBidsPrices[1]) {
+            hb_second_price = pbBidsPrices[1].price;
+            hb_second_bidder = pbBidsPrices[1].bidder.replace("hb_pb_", "");
+        }
+        localTargets.hb_second_price = hb_second_price;
+        localTargets.hb_second_bidder = hb_second_bidder;
+    }
+
+    if (w.ASCDP.partners.amazon && z.amaznArr) {
+        Object.assign(localTargets, z.amaznArr);
+        localTargets["amazon_request"] = "true";
+    }
+
+    Object.assign(localTargets, p.targetObject, z.targetObject);
+
+    localTargets["netSpeed"] = t.performance.roundedDuration;
+    localTargets["ad_type"] = adsNode[adsNode.length - 1].ad_type;
+    localTargets["auction_id"] = xandrTag.adResponse.auction_id;
+    localTargets["rtbMember"] = adsNode[adsNode.length - 1].buyer_member_id;
+
+    if (z.hasRTB && z.response?.[z.response.length - 1].cpm) {
+        secondBidPrice = z.response[z.response.length - 1].cpm;
+    }
+    if (!Number.isNaN(secondBidPrice)) {
+        localTargets.anhb = 'anhb_' + (Math.round(parseFloat(secondBidPrice) * 100));
+    }
+
+    targetKeys.forEach(key => {
+        let valueString = "";
+        let value = p[key] || "";
+        if (!value) {
+            return;
+        }
+        if (typeof value === "object") {
+            valueString = value.join(",").split(",");
+        } else {
+            valueString = value.toString();
+        }
+        localTargets[key] = valueString;
+    });
+
+    window.ADNXSMediation?.setAsync();
+    window.gamTimeout = setTimeout(t.passbackCall, 5000, ContId, true, z.insertionId);
+
+    w.googletag.cmd.push(() => {
+        z.gamSlot = w.googletag.defineSlot(adunit, dfpsizes, "gam_" + z.contId);
+        z.gamSlot.addService(w.googletag.pubads());
+        Object.keys(localTargets).forEach(key => {
+            if (typeof localTargets[key] === "boolean") {
+                localTargets[key] = String(localTargets[key]);
+            }
+            z.gamSlot.setTargeting(key, localTargets[key]);
+        });
+        w.googletag.display("gam_" + z.contId);
+    }, localTargets);
+</script>
+<script>window.ADNXSMediation.ready();</script><div><img width="0" height="0" style="display: block; margin: 0px; padding: 0px; width: 0px;"><div name="anxv" lnttag=";tv=view7-28js;st=0;d=9x9;vc=iab;vid_ccr=1;tag_id=35597825;cb=https%3A%2F%2Fnym2-ib.adnxs.com%2Fvevent%3Fan_audit%3D0%26referrer%3Dhttps%253A%252F%252Fwww.politico.com%252Fnewsletters%252Fwest-wing-playbook-remaking-government%252F2026%252F06%252F05%252Fthe-truth-about-trumps-truths-00952149%26e%3DwqT_3QK1DPBDNQYAAAMA1gAFAQj88sPSBhCbvM_9lfSa5gUYyJGfivOEx8MgKjYJmiUBamp5FEARmiUBamp5FEAZAAAAAClcFEAhmiUJGwApESTQMQAAAEDheoQ_MIHc_BA47T1A7T1IAlDjg-ySAlioxlBgAGi_smd4yrsFgAEBigEDVVNEkgEBBvSbAZgBCaABCagBBrABALgBAMABBMgBAtABANgBAOABAPABAPoBTHBvbGl0aWNvLmNvbS1kZXNrdG9wLXdlc3Qud2luZy5wbGF5Ym9vay5yZW1ha2luZy5nb3Zlcm5tZW50X25ld3NsZXR0ZXItbXJlYzSKAit1ZignYScsIDExMTg4NjUyLCAwKTt1ZigncicsIDU3NjM4OTYwMywgMCk7kgKVBCE1MWZUSGdpNHZfVWRFT09EN0pJQ0dBQWdxTVpRTUFBNEFFQUVTTzA5VUlIY19CQllBR0M0Qm1nQWNJb0NlQVNBQVlvQ2lBRUVrQUVCbUFFQm9BRUJxQUVEc0FFQXVRR0pFMURRYVhrVVFNRUJpUk5RMEdsNUZFREpBVE05ek93Z1lmQV8yUUVBQUFBQUFBRHdQLUFCQUpnQ0FLQUNBTFVDQUFBQUFMMENBQUFBQU1BQ0FNZ0NBTkFDQU5nQ0FPQUNBT2dDQVBnQ0FJQURBWmdEQWJvRENVNVpUVEk2TlRZME9PQUR4VXlJQkFDUUJBQ1lCQUhCQkFBQUEJcQxBeVFRDQokQUFBTmdFQVBFRQELCQEgQ0lCWkFzcVFVCQ8YQUR3UDdFRg0NFEFBQURCQh0_AHkVKAFMMigAAFouKAC4NEFYeG5oX3dCWjJubXczNEJhenpxZ1dDQmdOVlUwU0lCaENRQmdHWUJnR2hCZ0EBTjRBQUJSQXFBWUJzZ1lrQx10AEUdDABHHQwASR0MZHVBWUstQWZaMHdqNEJfVGFDUGdIcGZVSWdREV1oQUFBSWdJQUpBSUFBLi6aApkBIVdSRG03UWk0MhkCKEtqR1VDQUVLQUF4ATQBAVhGRUE2Q1U1WlRUSTZOVFkwT0VERlRFawEbISEId1AxPVAARhEYDEFBQUcdGABHHRgASB0YEEhnQWlRHRB4QS4u2AIA4ALG3D3qAn1odHRwczovL3d3dy5wb2xpdG1HCC9uZXEYBHMvYUsYLXdpbmctcG1LBC1ybUsELWd1S2gvMjAyNi8wNi8wNS90aGUtdHJ1dGgtYWJvdXQBDAhtcHMBB_CQdGhzLTAwOTUyMTQ5gAMAiAMBkAMAmAMXoAMBqgMCSADAA9gEyAMB2APQH-ADAOgDAPgDAYAEAJIEBi91dC92M5gEAKIEDzEyOS4yMzYuMjI4LjE1OagEA7IEEggAEAEYrAIgmggoADAAOAJCALgEAMAEAMgEANIEDjc5MTcjTllNMjo1NjQ42gQCCAHgBADwBIWDIIgFAZgFAKAF_xEBGAHABQDJBQAFARTwP9IFCQkFC3wAAADYBQHgBQHwBc7wDvoFBAgAEACQBgCYBgC4BgDBBgEhMAAA8D_QBr0o2gYWChAJERkBgBAAGADgBgHyBgYIABgAIACABwGIBwCgBwHIB8q7BdIHDxVoASoQIADaBwYBY_CiGADgBwDqBwIIAPAHp7WHA4oIXQpZAAABn0xOjGAFzGuhX7PeG6UrezbJ_UfFdU3riUuV_qPhZ6UT2HIuwfovHzFehtv1yVR677grLKYGTXt3zYRvG4eZpId4SDOEa6ngPmbQ8be1H_PUeLAmHtgQAZUIAACAP5gIAaIIBgoEREJBQcAIANIIDgiBgoSIkKDAgAEQABgA2ggECAAgAOAIAOgIAA..%26s%3D9cde166fbefcbd8ca6ff1674bd9394e6645661d3;ts=1783691644;cet=0;cecb=" width="0" height="0" style="display: block; margin: 0; padding: 0; height: 0; width: 0;"><script src="the-truth-about-trumps-truths-00952149_data/banner_2gYX.js" async=""></script></div></div></body></html>

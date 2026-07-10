@@ -1,0 +1,1 @@
+var ASCDP=window.ASCDP||{};ASCDP.adS=ASCDP.adS||{},ASCDP.adS.resetAd=function(e){var d=ASCDP.adS,l=e.replace("_rlSlot",""),o=l+"_rlSlot";d.removeAd(e),delete d.slotSizeMap[l],delete d.slotSizeMap[o],d.debug&&console.log("%cADLIB: resetAd - all caches cleared for "+e+" (org: "+l+"). Ready for fresh renderAd with updated adSSetup.",d.logColor)};
