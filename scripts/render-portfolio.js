@@ -11,10 +11,6 @@ function addChildClassed(parent,newClass,tag='div') {
 }
 
 $(function() {
-    // $(".outlink").click(function() {
-    //     window.location = $(this).attr("href"); 
-    //     return false;
-    // });
 
     const clipHolder = document.querySelector('#main-clips')
 
@@ -55,17 +51,11 @@ $(function() {
             addChildClassed(metadataElem,'clip-publication','a').textContent = clipData['publication']
 
             var descriptionElem = addChildClassed(contentCol,'clip-description','p')
-            descriptionElem.textContent = clipData['description']
+            // descriptionElem.textContent = clipData['description']
+            $(descriptionElem).html(clipData['description'])
     
-            /*addChildClassed(contentCol,'clip-about','p').textContent = clipData['about']*/
-    
-            // newClip.setAttribute('href',clipData['link'])
             newClip.setAttribute('type',clipData['type'])
             $(newClip).height($(contentCol).height())
-    
-            // newClip.onclick = function() {
-            //     window.open(this.getAttribute('href'),'_self')
-            // }
         }
     })
 
