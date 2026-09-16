@@ -14,7 +14,7 @@ $(function() {
 
     const clipHolder = document.querySelector('#main-clips')
 
-    d3.json('portfolio.json')
+    d3.json('../portfolio.json')
     .then(data => { 
         console.log(data)
         data = data['clips']
@@ -29,7 +29,7 @@ $(function() {
             contentCol.classList.add('column')
     
             var clipImage = addChildClassed(imageCol,'clip-image','img')
-            clipImage.setAttribute('src',clipData['image'])
+            clipImage.setAttribute('src', '../' + clipData['image'])
 
             if (clipData['git']) {
                 clipGit = addChildClassed(imageCol, 'clip-git', 'a')
