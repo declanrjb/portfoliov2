@@ -1,0 +1,28 @@
+{
+    "clips":[
+        {
+            "image":"images/inmate-complaints.webp",
+            "title":"Federal Inmate Complaints",
+            "date":"July 2024",
+            "publication":"The Data Liberation Project",
+            "link":"https://github.com/data-liberation-project/bop-inmate-complaint-data-processing",
+            "description": "As a volunteer for the Data Liberation Project, I cleaned and analyzed records detailing 1,783,999 complaints of alleged mistreatment filed by federal prison inmates between 2000 and 2024. My work was subsequently cited as the primary data source for an investigative story published by <a href='https://www.npr.org/2026/06/17/nx-s1-5343603/prison-lawsuits-grievance-denial-investigation'>NPR</a> and <a href='https://www.themarshallproject.org/2026/06/17/health-federal-alabama-prison-complaint'>The Marshall Project</a>."
+        },
+        {
+            "image":"images/cds-search.png",
+            "title":"Common Data Set Engine",
+            "date":"August 2026",
+            "publication":"Independent",
+            "link":"https://declanrjb.github.io/cds-engine/?unitid=100706",
+            "description": "Common Data Sets can be an invaluable source for higher ed reporters, who rely on them for reliable statistics when other sources remain delayed or incomplete. Yet they remain locked in poorly formatted PDFs scattered across individual university websites. This search engine - developed during my internship at <i>The Hechinger Report</i> – provides access to 4,690 Common Data Sets processed using automated search and OCR."
+        },
+        {
+            "image":"images/propublica_federal-disclosures.webp",
+            "title":"Trump Administration Financial Ethics Disclosures",
+            "date":"September 2026",
+            "publication":"ProPublica",
+            "link":"https://projects.propublica.org/trump-team-financial-disclosures/",
+            "description": "As a contractor for <i>ProPublica's</i> news applications teams, I developed automated scripts for populating and sending public records requests at scale. Using Python and Zapier, I filed 193 public records requests across 123 federal agencies, contributing more than 3,000 new financial ethics disclosures to <i>ProPublica’s</i> public database. (The new batch of documents is set to go live in late October, following an application redesign by ProPublica's team.)"
+        }
+    ]
+}

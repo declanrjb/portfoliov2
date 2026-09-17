@@ -7,7 +7,7 @@
             "publication":"POLITICO",
             "link":"https://www.politico.com/newsletters/west-wing-playbook-remaking-government/2026/06/05/the-truth-about-trumps-truths-00952149",
             "type":"Writing & Reporting",
-            "description": "As a POLITICO Journalism Institute trainee on the breaking news desk, I developed this original analysis of one month of U.S. President Donald Trump's Truth Social posts. POLITICO reporter Gregory Svirnovskiy and I personally read 844 of Trump's posts twice each, categorizing them based on their text, images, and associated links. I conducted all data analysis for the final story, and also developed the associated charts in Datawrapper. My work was featured on <a href='https://www.politico.com/news/2026/06/05/trump-social-media-analysis-00952006'>POLITICO's homepage</a>, BlueSky feed, in a push notification to subscribers, and as the <a href='https://www.politico.com/newsletters/west-wing-playbook-remaking-government/2026/06/05/the-truth-about-trumps-truths-00952149'>headline story</a> of the June 5, 2026 edition of West Wing Playbook."
+            "description": "As a POLITICO Journalism Institute trainee on the breaking news desk, I developed this analysis of U.S. President Donald Trump's Truth Social posts. POLITICO reporter Greg Svirnovskiy and I personally read and categorized 844 of Trump's posts twice each. I conducted all data analysis for the final story, and also developed the associated charts in Datawrapper. My work was featured on <a href='https://www.politico.com/news/2026/06/05/trump-social-media-analysis-00952006'>POLITICO's homepage</a>, BlueSky feed, in a push notification to subscribers, and as the <a href='https://www.politico.com/newsletters/west-wing-playbook-remaking-government/2026/06/05/the-truth-about-trumps-truths-00952149'>headline story</a> of the June 5, 2026 edition of West Wing Playbook."
         },
         {
             "image":"images/investments_globe.png",
@@ -16,8 +16,7 @@
             "publication":"The Oberlin Review",
             "link":"../clips/offline-builds/ob-investments.html",
             "type":"Writing & Reporting",
-            "description": "After 20 years of repeated student calls for endowment transparency, my reporting identified more than $52 million of Oberlin's foreign investments for the first time, drawing on previously unreported documents that I discovered in a public IRS database. My research involved hundreds of pages of records, geolocation, the SEC's EDGAR database, and incorporation filings pulled from national business registries across the world. In the process, I was able to build a database that provides unprecedented insight into the foreign investments of a highly selective private liberal arts college.",
-            "git": "https://github.com/declanrjb/ob-investments"
+            "description": "After 20 years of student calls for endowment transparency, my reporting identified more than $52 million of Oberlin's foreign investments for the first time, drawing on previously unreported documents I uncovered in a public IRS database. My research involved hundreds of pages of records from the IRS, SEC, and national business registries around the world."
         },
         {
             "image":"images/chronicle_student-texts.webp",
