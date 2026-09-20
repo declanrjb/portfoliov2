@@ -27,6 +27,11 @@ $(function() {
             imageCol.classList.add('column')
             var contentCol = addChildClassed(newClip,'clip-content-column')
             contentCol.classList.add('column')
+
+            if (clipData['type'] != 'Story') {
+                var clipType = addChildClassed(imageCol, 'type-tag', 'div')
+                clipType.innerText = clipData['type']
+            }
     
             var clipImage = addChildClassed(imageCol,'clip-image','img')
             clipImage.setAttribute('src', '../' + clipData['image'])

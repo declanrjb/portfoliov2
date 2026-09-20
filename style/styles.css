@@ -54,6 +54,11 @@ column {
     text-decoration: none;
 }
 
+.outlink[selected] {
+    background-color: black;
+    color: white;
+}
+
 .outlink:hover {
     cursor: pointer;
 }
@@ -126,10 +131,10 @@ a {
 }
 
 .clip-image {
-    margin-top: 5px;
     width: 100%;
     object-fit: cover;
     aspect-ratio: 1/1;
+    margin-top: 0px;
 }
 
 .clip-title {
@@ -231,6 +236,17 @@ a {
 
 .clip-description a[href]:hover {
     color: #7a75ff;
+}
+
+.type-tag {
+  position: absolute;
+  z-index: 99;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 @media screen and (max-width: 820px) {

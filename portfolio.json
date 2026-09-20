@@ -6,7 +6,7 @@
             "date":"June 2026",
             "publication":"POLITICO",
             "link":"https://www.politico.com/newsletters/west-wing-playbook-remaking-government/2026/06/05/the-truth-about-trumps-truths-00952149",
-            "type":"Writing & Reporting",
+            "type":"Story",
             "description": "As a POLITICO Journalism Institute trainee on the breaking news desk, I developed this analysis of U.S. President Donald Trump's Truth Social posts. POLITICO reporter Greg Svirnovskiy and I personally read and categorized 844 of Trump's posts twice each. I conducted all data analysis for the final story, and also developed the associated charts in Datawrapper. My work was featured on <a href='https://www.politico.com/news/2026/06/05/trump-social-media-analysis-00952006'>POLITICO's homepage</a>, BlueSky feed, in a push notification to subscribers, and as the <a href='https://www.politico.com/newsletters/west-wing-playbook-remaking-government/2026/06/05/the-truth-about-trumps-truths-00952149'>headline story</a> of the June 5, 2026 edition of West Wing Playbook."
         },
         {
@@ -15,7 +15,7 @@
             "date":"May 2026",
             "publication":"The Oberlin Review",
             "link":"../clips/offline-builds/ob-investments.html",
-            "type":"Writing & Reporting",
+            "type":"Story",
             "description": "After 20 years of student calls for endowment transparency, my reporting identified more than $52 million of Oberlin's foreign investments for the first time, drawing on previously unreported documents I uncovered in a public IRS database. My research involved hundreds of pages of records from the IRS, SEC, and national business registries around the world."
         },
         {
@@ -24,8 +24,17 @@
             "date":"October 2024",
             "publication":"The Chronicle of Higher Education",
             "link":"../clips/offline-builds/political-texts.html",
-            "type":"Writing & Reporting",
-            "description": "This story gave me a chance to report on the 2024 general election from an unusual local angle: college students' outrage at receiving political texts. At public universities, students' phone numbers are considered government records, making them accessible to FOIA. After the Harris campaign used this loophole to mass text students at Arizona State, triggering outrage from the University's Young Republicans, I FOIAed the FOIA logs at universities across the country to identify the companies acquiring and selling student numbers to advertisers and political campaigns. As an investigative reporter, FOIA is my bread and butter. Reporting this story let me draw back on the curtain on how advertisers and politicians use those same freedom of information laws for their own ends."
+            "type":"Story",
+            "description": "This story gave me a chance to report on the 2024 general election from an unusual local angle. At public universities, students' phone numbers are considered government records, making them accessible to FOIA. After the Harris campaign used this loophole to mass text students at Arizona State, triggering outrage from the University's Young Republicans, I FOIAed the FOIA logs at universities across the country to identify the companies acquiring and selling student numbers to advertisers and political campaigns."
+        },
+        {
+            "image":"images/propublica_federal-disclosures.webp",
+            "title":"Trump Administration Financial Ethics Disclosures",
+            "date":"September 2026",
+            "publication":"ProPublica",
+            "link":"https://projects.propublica.org/trump-team-financial-disclosures/",
+            "type": "Dataset",
+            "description": "As a contractor for <i>ProPublica's</i> news applications teams, I developed automated scripts to populate and send public records requests at scale. Using Python and Zapier, I filed 193 OGE form 201 requests across 123 federal agencies, contributing more than 3,000 new financial ethics disclosures to <i>ProPublica’s</i> public database. (The new batch of documents is set to go live in late October, following an application redesign by <i>ProPublica's</i> team.)"
         },
         {
             "image":"images/bradley-congress.jpg",
@@ -33,8 +42,17 @@
             "date":"December 2024",
             "publication":"The Chronicle of Higher Education",
             "link":"../clips/offline-builds/colleges-congress.html",
-            "type":"Data-Driven",
+            "type":"Story",
             "description": "As an intern for the Chronicle of Higher Ed, I had the rare chance to shepherd this piece from pitch to publication. I scraped data from the Congressional Bioguide, parsed it using Python and regular expressions, and analyzed the data in R. I developed the data visualizations in Flourish and built the accompanying scrollytelling page using HTML, CSS, and jQuery. Doing so taught me a great deal about the production workflow of a large newsroom – as I consulted closely with news editors, web developers, and the data team to move the piece forward."
+        },
+        {
+            "image":"images/inmate-complaints.webp",
+            "title":"Federal Inmate Complaints",
+            "date":"July 2024",
+            "publication":"The Data Liberation Project",
+            "link":"https://github.com/data-liberation-project/bop-inmate-complaint-data-processing",
+            "type": "Dataset",
+            "description": "As a volunteer for the Data Liberation Project, I cleaned and analyzed records detailing 1,783,999 complaints of alleged mistreatment filed by federal prison inmates between 2000 and 2024. My work was subsequently cited as the primary data source for an investigative story published by <a href='https://www.npr.org/2026/06/17/nx-s1-5343603/prison-lawsuits-grievance-denial-investigation'>NPR</a> and <a href='https://www.themarshallproject.org/2026/06/17/health-federal-alabama-prison-complaint'>The Marshall Project</a>."
         },
         {
             "image":"images/pidm_json_final.png",
@@ -42,17 +60,17 @@
             "date":"September 2023",
             "publication":"The Reed College Quest",
             "link":"../clips/offline-builds/systems-flaw.html",
-            "type":"Writing & Reporting",
-            "description": "For months, Reed College computer science students had begged college IT to fix serious security flaws in the campus database that would have allowed those in the know to impersonate effectively anyone, from stealing another student's meal swipes to opening locked doors as the director of campus safety. Their concerns had been ignored, and – we later learned – their fixes dismissed for being too expensive. They came to me because they trusted my reporting, and because my background in computer science reassured them that I could both understand the technical complexity of what they had found and explain it to a general audience."
+            "type":"Story",
+            "description": "For months, Reed College computer science students had begged college IT to fix serious security flaws in the campus database that would have allowed those in the know to impersonate anyone, from stealing another student's meal swipes to opening locked doors as the director of campus safety. Their concerns had been ignored, and – we later learned – their fixes dismissed for being too expensive. Following our reporting, the vulnerabilities were fixed within days."
         },
         {
-            "image":"images/morehouse.webp",
-            "title":"Soaring Application Numbers Suggest Historically Black Colleges Are Still in Vogue",
-            "date":"December 2024",
-            "publication":"The Chronicle of Higher Education",
-            "link":"../clips/offline-builds/hbcus.html",
-            "type":"Data-Driven",
-            "description": "This fast-turnaround story gave me a chance to analyze a cultural moment from a data angle. The day the annual IPEDs admissions data file was released by the Department of Education, I spent a few hours exploring the data, testing hypotheses and looking for story ideas. The spike in applications to HBCUs immediately stood out, and a story was born."
+            "image":"images/cds-search.png",
+            "title":"Common Data Set Engine",
+            "date":"August 2026",
+            "publication":"Independent",
+            "link":"https://declanrjb.github.io/cds-engine/?unitid=100706",
+            "type": "Dataset",
+            "description": "Common Data Sets can be an invaluable source for higher ed reporters, who rely on them for standardized statistics when other sources remain delayed or incomplete. Yet they remain locked in poorly formatted PDFs scattered across individual university websites. This search engine - developed during my internship at <i>The Hechinger Report</i> – provides access to 4,690 Common Data Sets processed using automated search and OCR."
         },
         {
             "image":"images/chronicle_chart-art.webp",
@@ -60,8 +78,8 @@
             "date":"September 2024",
             "publication":"The Chronicle of Higher Education",
             "link":"../clips/offline-builds/u-wisconsin.html",
-            "type":"Data-Driven",
-            "description": "This story began with a Slack message from my editor with a spreadsheet of admissions data for the University of Wisconsin Madison. She asked if there was anything interesting to see. I responded that the data, which was broken down by race / ethnicity, provided an unprecedented level of insight into the University's race-conscious admissions process. My reporting identified not only significant disparities in admission rates, but wild swings in those rates following the Supreme Court's 2023 decision to outlaw affirmative action. While it is common for institutions to release the demographic details of their enrolled class, to this day I am not aware of any other cases of an institution releasing racial data on the admissions process itself."
+            "type":"Story",
+            "description": "This story began with a Slack message from my editor with an attached CSV and a request to surface anything interesting. My analysis of the data identified not only significant disparities in admission rates by race/ethnicity, but wild swings in those rates following the Supreme Court's 2023 decision to outlaw affirmative action. While it is common for institutions to release the demographic details of their enrolled class, to this day I am not aware of any other cases of an institution releasing racial data on the admissions process itself."
         }
     ]
 }
