@@ -19,15 +19,6 @@
             "description": "After 20 years of student calls for endowment transparency, my reporting identified more than $52 million of Oberlin's foreign investments for the first time, drawing on previously unreported documents I uncovered in a public IRS database. My research involved hundreds of pages of records from the IRS, SEC, and national business registries around the world."
         },
         {
-            "image":"images/chronicle_student-texts.webp",
-            "title":"Why Political Text Blasts Targeting College Students Are Drawing Outrage ",
-            "date":"October 2024",
-            "publication":"The Chronicle of Higher Education",
-            "link":"../clips/offline-builds/political-texts.html",
-            "type":"Story",
-            "description": "This story gave me a chance to report on the 2024 general election from an unusual local angle. At public universities, students' phone numbers are considered government records, making them accessible to FOIA. After the Harris campaign used this loophole to mass text students at Arizona State, triggering outrage from the University's Young Republicans, I FOIAed the FOIA logs at universities across the country to identify the companies acquiring and selling student numbers to advertisers and political campaigns."
-        },
-        {
             "image":"images/propublica_federal-disclosures.webp",
             "title":"Trump Administration Financial Ethics Disclosures",
             "date":"September 2026",
@@ -35,6 +26,15 @@
             "link":"https://projects.propublica.org/trump-team-financial-disclosures/",
             "type": "Dataset",
             "description": "As a contractor for <i>ProPublica's</i> news applications teams, I developed automated scripts to file public records requests at scale. Using Python and Zapier, I filed 193 OGE form 201 requests across 123 federal agencies, contributing more than 4,000 new financial ethics disclosures to <i>ProPublica’s</i> public database. (The new batch of documents is set to go live in late October, following an application redesign by <i>ProPublica's</i> team.)"
+        },
+        {
+            "image":"images/chronicle_student-texts.webp",
+            "title":"Why Political Text Blasts Targeting College Students Are Drawing Outrage ",
+            "date":"October 2024",
+            "publication":"The Chronicle of Higher Education",
+            "link":"../clips/offline-builds/political-texts.html",
+            "type":"Story",
+            "description": "This story gave me a chance to report on the 2024 general election from an unusual local angle. At public universities, students' phone numbers are considered government records, making them accessible to FOIA. After the Harris campaign used this loophole to mass text students at Arizona State, triggering outrage from the University's Young Republicans, I FOIAed the FOIA logs at universities across the country to identify the companies acquiring and selling student numbers to advertisers and political campaigns."
         },
         {
             "image":"images/inmate-complaints.webp",
