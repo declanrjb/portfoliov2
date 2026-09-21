@@ -26,6 +26,15 @@
             "link":"https://projects.propublica.org/trump-team-financial-disclosures/",
             "type": "Dataset",
             "description": "As a contractor for <i>ProPublica's</i> news applications teams, I developed automated scripts to populate and send public records requests at scale. Using Python and Zapier, I filed 193 OGE form 201 requests across 123 federal agencies, contributing more than 3,000 new financial ethics disclosures to <i>ProPublica’s</i> public database. (The new batch of documents is set to go live in late October, following an application redesign by <i>ProPublica's</i> team.)"
+        },
+                {
+            "image":"images/bradley-congress.jpg",
+            "title":"The Colleges that Shape Congress",
+            "date":"December 2024",
+            "publication":"The Chronicle of Higher Education",
+            "link":"../clips/offline-builds/colleges-congress.html",
+            "type":"Story",
+            "description": "As an intern for the Chronicle of Higher Ed, I had the rare chance to shepherd this piece from pitch to publication. I scraped data from the Congressional Bioguide, parsed it using Python and regular expressions, and analyzed the data in R. I developed the data visualizations in Flourish and built the accompanying scrollytelling page using HTML, CSS, and jQuery. Doing so taught me a great deal about the production workflow of a large newsroom – as I consulted closely with news editors, web developers, and the data team to move the piece forward."
         }
     ]
 }
