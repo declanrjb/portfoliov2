@@ -64,6 +64,15 @@
             "description": "Common Data Sets can be an invaluable source for higher ed reporters, who rely on them for standardized statistics when other sources remain delayed or incomplete. Yet they remain locked in poorly formatted PDFs scattered across individual university websites. This search engine - developed during my internship at <i>The Hechinger Report</i> – provides access to 4,690 Common Data Sets processed using automated search and OCR."
         },
         {
+            "image":"clips/offline-builds/assets/snap.png",
+            "title":"Thirty Seven Thousand Lorain County Residents to Lose SNAP Benefits in November",
+            "date":"October 2025",
+            "publication":"The Oberlin Review",
+            "link":"../clips/offline-builds/snap-shutdown.html",
+            "type":"Story",
+            "description": "The student paper of Oberlin College, The Oberlin Review has also served a dual role as the paper of record for the town of Oberlin since the last independent paper in the area shut down in 2018. As a reporter for the news desk, I applied my data analysis experience to contextualizing the impact of policy decisions made in D.C. on Lorain county residents. Yet the heart of the story came when I went beyond the numbers to sit with residents waiting in line for food benefits at the local charity pantry, where they shared their fears and responsibilities with me."
+        },
+        {
             "image":"images/chronicle_chart-art.webp",
             "title":"At U. of Wisconsin, Underrepresented Students of Color Were Half as Likely to Be Accepted This Year",
             "date":"September 2024",
