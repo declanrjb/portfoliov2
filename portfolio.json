@@ -25,7 +25,7 @@
             "publication":"ProPublica",
             "link":"https://projects.propublica.org/trump-team-financial-disclosures/",
             "type": "Dataset",
-            "description": "As a contractor for <i>ProPublica's</i> news applications teams, I developed automated scripts to file public records requests at scale. Using Python and Zapier, I filed 193 OGE Form 201 requests across 123 federal agencies, contributing more than 2,400 new financial ethics disclosures to <i>ProPublica’s</i> public database."
+            "description": "As a contractor for <i>ProPublica's</i> news applications teams, I developed automated scripts to file public records requests at scale. Using Python and Zapier, I filed 193 OGE Form 201 requests across 123 federal agencies, contributing more than 2,400 new financial ethics disclosures to <i>ProPublica’s</i> public database. The revamped database launched in October following an application redesign by <i>ProPublica's</i> team."
         },
         {
             "image":"images/chronicle_student-texts.webp",
