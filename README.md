@@ -17,3 +17,5 @@
                             data</a> at IRE’s NICAR conference for data journalism. His recent work includes:</p>
 
 - <a href="https://declanrjb.github.io/cds-engine/">A searchable database of Common Data Sets</a>
+- <a href="https://www.politico.com/news/2026/06/05/trump-social-media-analysis-00952006">An analysis of U.S. President Donald Trump's Truth Social posts</a>
+- <a href="https://www.declanrjb.com/clips/offline-builds/ob-investments.html">An investigation identifying $52 million of Oberlin College's foreign investments</a>
