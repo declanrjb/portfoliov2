@@ -1,12 +1,12 @@
 <p><b>Declan Bradley</b> is a computational journalist and elections engineer for <i>The Associated Press</i>. 
                         He is a graduate of the Lede Program for Data Journalism at Columbia University. His work has 
                         appeared in <i>The Oberlin Review</i>, <i>The Chronicle of Higher Education</i>, and <i>POLITICO</i>. 
-                        In 2024, he was named <br><a class="award">Reporter of the Year</a> by the Associated 
+                        In 2024, he was named <a class="award">Reporter of the Year</a> by the Associated 
                         Collegiate Press. <a href="DeclanBradley_Resume.pdf">See his resume</a>.</p>
                     <p>His work, including visualizations of national campaign finance data and an 
                         <a href="https://www.declanrjb.com/clips/offline-builds/ob-investments.html">investigation identifying more than $52 million of Oberlin College’s foreign investments</a>, has won top awards from the ACP in news 
                         writing, opinion, and multimedia journalism. He is the recipient of the 2023 
-                        <br><a class="award">Multimedia Story of the Year</a> award for interactive graphics.</p>
+                        <a class="award">Multimedia Story of the Year</a> award for interactive graphics.</p>
                     <p>As a Dow Jones News Fund data reporting intern for the Howard Center for Investigative Journalism 
                         at the University of Maryland, he conducted data analysis for the center's 
                         <a href="https://cnsmaryland.org/off-the-rails/">Off the Rails</a> series on the dangers 
