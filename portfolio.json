@@ -80,6 +80,15 @@
             "link":"../clips/offline-builds/u-wisconsin.html",
             "type":"Story",
             "description": "This story began with a Slack message from my editor with an attached CSV and a request to surface anything interesting. My analysis of the data identified not only significant disparities in admission rates by race/ethnicity, but wild swings in those rates following the Supreme Court's 2023 decision to outlaw affirmative action. While it is common for institutions to release the demographic details of their enrolled class, to this day I am not aware of any other cases of an institution releasing racial data on the admissions process itself."
+        },
+        {
+            "image":"images/tube-map.png",
+            "title":"London Tube Map",
+            "date":"November 2026",
+            "publication":"Independent",
+            "link":"https://declanrjb.github.io/tube-map/",
+            "type":"News App",
+            "description": "As a study abroad student, I built this news app to display real-time train delays on the London Underground. The map pulls live data from the Transport for London (TFL) API to render each of the city's eleven transit lines as ant paths coded by speed and color. A glance at my TV's screensaver in the morning is enough to inform me (or any commuter) of what to expect on their way to school or work."
         }
     ]
 }
